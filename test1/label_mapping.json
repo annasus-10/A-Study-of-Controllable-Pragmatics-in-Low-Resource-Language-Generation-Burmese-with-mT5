@@ -1,0 +1,15 @@
+{
+  "neutral": "neutral",
+  "polite": "polite",
+  "informal": "informal",
+  "professional": "professional",
+  "blunt": "blunt",
+  "rude": "rude",
+  "very_polite": "polite",
+  "friendly": "informal",
+  "religious": "polite",
+  "impolite": "rude",
+  "stern": "blunt",
+  "sarcastic": "rude",
+  "polite_but_firm": "polite"
+}

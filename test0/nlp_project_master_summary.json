@@ -1,0 +1,353 @@
+{
+  "project_identity": {
+    "project_name": "NLP Final Project",
+    "group_name": "AttentionIsAllUNeed",
+    "group_lead": "Susan (Thet Su Sann)",
+    "project_type": "Academic NLP research project",
+    "course_context": "Final NLP project with phased academic deliverables",
+    "current_overall_phase": "Between proposal/planning and early implementation-testing preparation",
+    "remembered_constraints": [
+      "Project follows 4 phases: Literature Review, Proposal (ACL format), Implementation, Experiments",
+      "Paper review requirement is ACL-only",
+      "Prefer advanced topics such as multimodal, graph-based knowledge, agentic AI, cultural chatbot, or similarly substantial NLP work",
+      "Avoid overly simple projects such as plain RAG, simple sentiment analysis, or generic prompting-only work"
+    ]
+  },
+  "core_project_direction": {
+    "working_research_theme": "Burmese pragmatic/context-aware NLP",
+    "working_problem_area": "Understanding implied meaning, pragmatic interpretation, and context-sensitive language understanding for Burmese",
+    "motivation": [
+      "Burmese is a low-resource language",
+      "Pragmatic meaning is harder than literal meaning",
+      "Many models perform poorly when context, intent, and implied meaning matter",
+      "The project aims to show measurable improvement rather than relying only on human judgments"
+    ],
+    "high_level_modeling_direction": [
+      "A staged progression from weaker baselines to a fuller context-aware system",
+      "Potential progression discussed: zero-shot -> meaning-only -> context-aware -> full model",
+      "Possible use of fine-tuning rather than only prompting",
+      "Need mathematical/quantitative proof that the model works"
+    ]
+  },
+  "main_problem_statement": {
+    "summary": "The project aims to build and evaluate a Burmese NLP system that can better interpret context-dependent or pragmatic meaning, rather than only literal surface meaning.",
+    "problems_to_tackle": [
+      "Low-resource nature of Burmese NLP",
+      "Difficulty of representing pragmatic meaning and context",
+      "Need for a dataset that is sufficient and aligned with the task",
+      "Need for strong baselines to prove improvement",
+      "Need for evaluation that is rigorous and quantitative",
+      "Need to keep the work within course scope while still being advanced enough for acceptance"
+    ],
+    "why_this_is_hard": [
+      "Limited Burmese-specific resources",
+      "Pragmatics is harder to annotate and evaluate than direct classification",
+      "Need to connect literature, dataset design, modeling, and experiments into one coherent research story",
+      "Need to justify methodology to a professor who may not be focused on Burmese specifically"
+    ]
+  },
+  "project_goals": {
+    "primary_goals": [
+      "Design a research-worthy NLP project around Burmese context/pragmatics",
+      "Build a system that improves over simple baselines",
+      "Show empirical evidence of improvement with quantitative metrics",
+      "Produce all required course deliverables in ACL-style academic format"
+    ],
+    "secondary_goals": [
+      "Keep the topic advanced enough to be accepted by the professor",
+      "Ground the project in ACL-only literature",
+      "Create a workflow that is explainable in papers, slides, and presentation diagrams",
+      "Make the methodology teachable and presentable to teammates"
+    ],
+    "success_criteria": [
+      "Clear task definition",
+      "Sufficient dataset for the chosen scope",
+      "Strong literature review from ACL Anthology",
+      "Baseline vs proposed-model comparison",
+      "Evaluation with measurable metrics rather than only anecdotal examples"
+    ]
+  },
+  "discussion_history": {
+    "topic_selection_stage": {
+      "status": "Discussed and narrowed toward Burmese pragmatic/context-aware NLP",
+      "notes": [
+        "The user liked the fine-tuning direction",
+        "The project should not be a simple or generic idea",
+        "It should feel substantial enough for a final NLP project"
+      ]
+    },
+    "literature_review_stage": {
+      "status": "Planned",
+      "requirements": [
+        "Strictly ACL Anthology papers",
+        "4 papers per member",
+        "Total of 16 papers for a 4-member team"
+      ],
+      "notes": [
+        "Relevant papers can include Burmese, structurally similar low-resource languages, and English pragmatics/context papers if they directly support the scope",
+        "The literature should connect to low-resource NLP, context-aware understanding, pragmatics, or fine-tuning approaches"
+      ]
+    },
+    "proposal_stage": {
+      "status": "Actively worked on",
+      "deliverables_discussed": [
+        "Title",
+        "Abstract",
+        "Introduction",
+        "ACL-format LaTeX structure",
+        "Workflow diagram placement in the paper",
+        "Slides explanation and how to visually present model progression"
+      ],
+      "notes": [
+        "The paper is being prepared in ACL LaTeX format",
+        "The user asked where to place diagrams in the paper",
+        "The user also requested presentation-friendly text for model diagrams"
+      ]
+    },
+    "implementation_stage": {
+      "status": "Started in practical terms but not finished end-to-end",
+      "notes": [
+        "Training has been run at least in an early setup",
+        "A runtime/device issue was debugged and explained",
+        "The user explicitly confirmed that the project has not tackled the whole thing yet"
+      ]
+    },
+    "testing_stage": {
+      "status": "Early/partial",
+      "notes": [
+        "The user asked whether they are now in the testing stage",
+        "Clarification given earlier: not the whole project yet; only part of the pipeline has been exercised"
+      ]
+    }
+  },
+  "methodology_ideas_discussed": {
+    "task_framing_options": [
+      "Context-aware classification",
+      "Pragmatic meaning understanding",
+      "Implied meaning or intent interpretation",
+      "Comparative evaluation across baseline/model variants"
+    ],
+    "modeling_ideas": [
+      "Fine-tuning a model rather than using only zero-shot prompting",
+      "Comparing simpler and stronger model settings",
+      "Using context as an explicit signal in the full model",
+      "Potential classifier component for evaluation and measurable performance proof"
+    ],
+    "progression_for_experiments": [
+      {
+        "stage": "Zero-shot",
+        "purpose": "Weak baseline without task-specific training"
+      },
+      {
+        "stage": "Meaning-only",
+        "purpose": "Model focuses on literal meaning or local text without richer context"
+      },
+      {
+        "stage": "Context-aware",
+        "purpose": "Model uses surrounding information and pragmatic cues"
+      },
+      {
+        "stage": "Full model",
+        "purpose": "Final proposed system with the complete method"
+      }
+    ],
+    "presentation_support": {
+      "diagram_need": "A clear left-box/right-box style diagram for slides and paper",
+      "example_need": "Use Burmese sentence examples to illustrate increasing interpretation quality across model stages"
+    }
+  },
+  "dataset_and_data_questions": {
+    "known_discussions": [
+      "Whether the dataset is enough for the project scope",
+      "Need to align dataset design with the exact task",
+      "Need for measurable outputs and not only subjective interpretation"
+    ],
+    "open_dataset_questions": [
+      "Final dataset source has not been locked in the remembered discussion here",
+      "Need to define annotation/unit of analysis clearly",
+      "Need to ensure class/task balance if using classification",
+      "Need train/validation/test splits consistent with research evaluation"
+    ],
+    "data_requirements": [
+      "Task-relevant Burmese examples",
+      "Context availability where needed",
+      "Labels or supervision design that match the research question",
+      "Enough examples to compare baseline and proposed method"
+    ]
+  },
+  "evaluation_plan": {
+    "core_expectation": "Use quantitative evaluation to prove the method works",
+    "discussed_evaluation_needs": [
+      "Mathematical proof in the sense of measurable model performance",
+      "Avoid relying only on human judgment",
+      "Compare against weaker baselines"
+    ],
+    "likely_metrics_to_include": [
+      "Accuracy",
+      "Precision",
+      "Recall",
+      "F1-score"
+    ],
+    "additional_experiment_needs": [
+      "Ablation or staged comparison across baseline variants",
+      "Error analysis with representative Burmese examples",
+      "Demonstration of why context helps"
+    ]
+  },
+  "deliverables_and_outputs": {
+    "academic_deliverables": [
+      "ACL-format proposal paper",
+      "Literature review table(s)",
+      "Implementation",
+      "Experiments/results section",
+      "Presentation slides"
+    ],
+    "project_assets_discussed": [
+      "GitHub README up to proposal stage",
+      "LaTeX content for title/abstract/introduction",
+      "Paper figure placement guidance",
+      "Slide-ready model progression text",
+      "Team-facing summary/report explaining the topic and workflow"
+    ]
+  },
+  "implementation_notes_from_recent_work": {
+    "training_run_observed": {
+      "epochs_completed": 2,
+      "training_loss_trend": [
+        28.878223,
+        26.316058
+      ],
+      "validation_loss_trend": [
+        22.53751,
+        21.266447
+      ],
+      "global_step": 50,
+      "general_interpretation": "The loss decreased across epochs, suggesting the run was functioning and learning to some extent."
+    },
+    "runtime_debugging_discussion": {
+      "issue": "A device/runtime-related setup issue was discussed around GPU vs CPU execution/testing.",
+      "user_concern": "The user was on a GitHub-connected T4 runtime and had not manually changed anything.",
+      "important_takeaway": [
+        "Part of the debugging involved explaining why the code/runtime behavior changed",
+        "CPU testing was used as a diagnostic step rather than as the intended full training environment"
+      ]
+    },
+    "current_status_interpretation": [
+      "A partial training/test workflow has been exercised",
+      "This does not mean the whole research pipeline is complete",
+      "The project still needs the remaining end-to-end components, experiments, and polished evaluation"
+    ]
+  },
+  "what_is_done_so_far": [
+    "A promising Burmese pragmatics/context-aware project direction has been identified",
+    "The scope was shaped to be advanced and course-appropriate",
+    "ACL-only literature review requirement was established",
+    "Proposal components such as title/abstract/introduction were discussed",
+    "ACL LaTeX structure and figure placement were discussed",
+    "Presentation framing for the model progression was discussed",
+    "At least one early training run was completed",
+    "A runtime/debugging issue related to execution environment was discussed and addressed"
+  ],
+  "what_is_not_done_yet": [
+    "Final locked task definition with exact labels and dataset specification",
+    "Complete literature table with all required ACL papers",
+    "Full implementation of the final proposed method",
+    "Comprehensive experiment suite",
+    "Full error analysis",
+    "Final polished paper",
+    "Final polished presentation"
+  ],
+  "open_problems_and_risks": [
+    {
+      "problem": "Scope drift",
+      "why_it_matters": "Pragmatics can become too broad if the task is not sharply defined."
+    },
+    {
+      "problem": "Dataset sufficiency",
+      "why_it_matters": "An advanced idea may fail if the data is too small or weakly aligned."
+    },
+    {
+      "problem": "Evaluation clarity",
+      "why_it_matters": "Without a clear metric-based evaluation, the project may look vague."
+    },
+    {
+      "problem": "Professor acceptance",
+      "why_it_matters": "The topic must look academically strong but still feasible."
+    },
+    {
+      "problem": "Implementation complexity",
+      "why_it_matters": "A full context-aware system may require more engineering than originally expected."
+    }
+  ],
+  "recommended_project_plan": {
+    "phase_1_lock_scope": [
+      "Finalize the exact task definition",
+      "Decide the input-output format",
+      "Confirm whether the task is classification, ranking, or another supervised framing",
+      "Write a one-paragraph final problem statement"
+    ],
+    "phase_2_finalize_literature": [
+      "Collect ACL-only papers",
+      "Prioritize low-resource, pragmatics, context modeling, and fine-tuning studies",
+      "Create a structured literature review table",
+      "Extract datasets, methods, and evaluation metrics from each paper"
+    ],
+    "phase_3_dataset_design": [
+      "Finalize dataset source or construction strategy",
+      "Define labels clearly",
+      "Create train/validation/test splits",
+      "Check class balance and annotation consistency"
+    ],
+    "phase_4_build_baselines": [
+      "Implement a simple zero-shot baseline",
+      "Implement a meaning-only baseline",
+      "Implement a context-aware baseline",
+      "Keep evaluation pipeline identical across settings"
+    ],
+    "phase_5_build_final_model": [
+      "Implement the full proposed method",
+      "Train and validate carefully",
+      "Track losses and task metrics",
+      "Document all hyperparameters and runtime settings"
+    ],
+    "phase_6_experiments_and_analysis": [
+      "Run comparative experiments",
+      "Create results tables",
+      "Perform error analysis",
+      "Show representative Burmese examples where context changes meaning"
+    ],
+    "phase_7_writing_and_presentation": [
+      "Finalize ACL paper sections",
+      "Insert workflow/model diagrams",
+      "Prepare slide storyline from motivation -> method -> results -> examples -> conclusion",
+      "Make sure every claim in slides is supported by results"
+    ]
+  },
+  "suggested_json_fields_for_future_tracking": {
+    "useful_to_keep_updating": [
+      "final_title",
+      "task_definition",
+      "dataset_description",
+      "papers_reviewed",
+      "baselines_implemented",
+      "final_model_name",
+      "metrics",
+      "results_table",
+      "ablation_results",
+      "error_analysis_examples",
+      "paper_status",
+      "slide_status"
+    ]
+  },
+  "current_best_understanding_of_status": {
+    "plain_language_summary": "The project is no longer just an idea, but it is also not complete. The team has a strong direction, proposal-related material, and some early implementation/testing activity, but still needs to finalize the exact task, lock the dataset/evaluation design, finish the full method, and run complete experiments.",
+    "are_we_in_testing_stage": "Partially/early, but not in the sense of having completed the whole project.",
+    "is_the_whole_project_done": false
+  },
+  "uncertainties_or_missing_details": [
+    "Exact final dataset name and schema are not fully established in the remembered discussion provided here",
+    "Exact final model architecture is not fully locked from the current context alone",
+    "Exact train/dev/test experimental setup is still open",
+    "Some literature selections were discussed, but the complete validated 16-paper list is not embedded in this JSON unless reconstructed separately"
+  ]
+}
