@@ -1,263 +1,160 @@
-# Controllable Pragmatics in Low-Resource Language Generation (Burmese with mT5)
+# Burmese Pragmatics NLP — Context-Sensitive Politeness Classification
 
-**NLP Final Project — Group AttentionIsAllYouNeed**
+**Group: AttentionIsAllUNeed** | NLP Final Project | Asian Institute of Technology
 
----
-
-## Project Overview
-
-This project investigates controllable pragmatic text generation for a low-resource language (Burmese) using a multilingual transformer model (mT5).
-
-While most text generation systems focus on semantic correctness, this work emphasizes pragmatic appropriateness—how language varies based on social and contextual factors such as politeness, tone, and power relations. As highlighted in the proposal, semantic correctness alone does not guarantee socially appropriate language use .
+> A 4-stage ablation study on pragmatic politeness classification in Burmese using fine-tuned XLM-RoBERTa, with a fully end-to-end pipeline that automatically predicts register, power relation, and tone.
 
 ---
 
-## Motivation
+## Overview
 
-In Burmese, linguistic expression is highly sensitive to sociolinguistic context. The same semantic intent (e.g., requesting help) can be expressed differently depending on:
+Pragmatic meaning in Burmese is highly sensitive to social context. The same underlying intent can be expressed in dozens of different ways depending on the speaker-listener relationship, the formality of the situation, and the speaker's emotional stance. This project builds a system that classifies the **politeness level** of Burmese utterances into 6 categories:
 
-* Formal versus casual settings
-* Speaker–listener relationships
-* Levels of politeness
+`neutral` · `polite` · `informal` · `professional` · `blunt` · `rude`
 
-Existing NLP systems:
-
-* Primarily focus on semantic meaning
-* Often ignore sociolinguistic context
-* Are largely developed for high-resource languages
-
-This project addresses these limitations by modeling fine-grained pragmatics in a low-resource setting.
+We design a **4-stage ablation study** that systematically adds richer contextual information to the model input, and measure how much each addition improves classification quality.
 
 ---
 
-## Problem Statement
+## Results
 
-Current NLP approaches face the following limitations:
+| Stage | Input | Macro F1 | Δ |
+|---|---|---|---|
+| Stage 1 | Utterance only | 0.701 | — |
+| Stage 2 | + context + instruction | 0.758 | +0.057 |
+| Stage 3 | + oracle register/power/tone | 0.799 | +0.041 |
+| Stage 4 | + predicted register/power/tone | 0.702 | −0.097 |
 
-1. Overemphasis on semantic meaning while ignoring social context
-2. Limited research on low-resource languages such as Burmese
-3. Lack of controllability over sociolinguistic attributes
-
-
-
----
-
-## Research Objectives
-
-The objectives of this study are:
-
-* To investigate controllable text generation in Burmese
-* To analyze the impact of contextual and sociolinguistic attributes
-* To develop a system capable of generating socially appropriate utterances
-
-Key attributes considered:
-
-* Context
-* Politeness
-* Tone
-* Power relations
+**Key finding:** Contextual signals meaningfully improve classification. However, when metadata is predicted automatically rather than provided as ground truth, error propagation nearly eliminates the benefit — Stage 4 ≈ Stage 1. This quantifies the bottleneck: intermediate classifier accuracy.
 
 ---
 
-## Research Questions
+## Intermediate Classifiers
 
-* **RQ1:** How does fine-tuning a multilingual text-to-text model compare to a zero-shot baseline?
-* **RQ2:** To what extent does incorporating contextual information improve generation quality?
-* **RQ3:** Which sociolinguistic attributes contribute most to generation quality?
+Three auxiliary classifiers predict pragmatic metadata for the Stage 4 pipeline:
 
+| Classifier | Task | Input | Classes | Macro F1 |
+|---|---|---|---|---|
+| A | Register | Utterance | 4 | 0.705 |
+| B | Power relation | Utterance + context | 4 | 0.598 |
+| C | Tone | Utterance + context | 5 | 0.613 |
 
+Tone labels are grounded in **Appraisal Theory** (Martin & White, 2005), mapping 131 informal annotations to 5 principled categories: `neutral` · `positive` · `formal` · `negative` · `emotional`.
+
+---
+
+## Models on HuggingFace
+
+| Model | Repo |
+|---|---|
+| Classifier A (Register) | [annasus10/xlmr-burmese-register](https://huggingface.co/annasus10/xlmr-burmese-register) |
+| Classifier B (Power) | [annasus10/xlmr-burmese-power](https://huggingface.co/annasus10/xlmr-burmese-power) |
+| Classifier C (Tone) | [annasus10/xlmr-burmese-tone](https://huggingface.co/annasus10/xlmr-burmese-tone) |
+| Stage 1 | [annasus10/xlmr-burmese-pragmatics-stage1-v2](https://huggingface.co/annasus10/xlmr-burmese-pragmatics-stage1-v2) |
+| Stage 2 | [annasus10/xlmr-burmese-pragmatics-stage2-v2](https://huggingface.co/annasus10/xlmr-burmese-pragmatics-stage2-v2) |
+| Stage 3 | [annasus10/xlmr-burmese-pragmatics-stage3-v2](https://huggingface.co/annasus10/xlmr-burmese-pragmatics-stage3-v2) |
+
+---
+
+## Live Demo
+
+| Demo | Description |
+|---|---|
+| [Demo v1](https://huggingface.co/spaces/annasus10/burmese-pragmatics-demo) | Stages 1/2/3 with manual metadata input |
+| [Demo v2](https://huggingface.co/spaces/annasus10/burmese-pragmatics-demo-v2) | Full Stage 4 end-to-end pipeline — metadata predicted automatically |
 
 ---
 
 ## Dataset
 
-This project uses the Burmese Contextual Pragmatics Dataset (HuggingFace), which contains:
-
-* Approximately 2,200 samples
-* 22 conversational intents
-* Four key attributes:
-
-| Attribute      | Description                  |
-| -------------- | ---------------------------- |
-| Context        | Formal or casual setting     |
-| Politeness     | High, medium, or low         |
-| Tone           | Direct, neutral, or indirect |
-| Power Relation | Speaker-listener hierarchy   |
-
-
+[freococo/burmese-contextual-pragmatics](https://huggingface.co/datasets/freococo/burmese-contextual-pragmatics) — 2,200 Burmese utterances · 22 root meanings · CC0 license
 
 ---
 
 ## Methodology
 
-### Input Representation
+### Base Model
+All 7 models fine-tune `xlm-roberta-base` (Conneau et al., ACL 2020) — an encoder-only transformer trained on 100 languages including Burmese.
 
-Structured input is defined as:
+### Training
+- 8 epochs · batch size 8 · lr 2e-5 · warmup 150 steps
+- Weighted cross-entropy loss (handles severe class imbalance — neutral = 53% of data)
+- Best checkpoint selected by macro F1 on validation set
+- Fixed seed=42, identical 70/15/15 split across all 7 models
 
+### Stage 4 Pipeline
 ```
-Meaning: ask for help  
-Context: formal  
-Politeness: high  
-Tone: neutral  
-Power: lower → higher  
+Utterance + Context + Instruction
+        │
+        ├──► Classifier A ──► register prediction
+        ├──► Classifier B ──► power relation prediction  
+        └──► Classifier C ──► tone prediction
+                │
+                ▼
+[register: X] [power: Y] [tone: Z] utterance </s> context </s> instruction
+                │
+                ▼
+        Stage 3 Politeness Classifier
+                │
+                ▼
+        Predicted Politeness Label
 ```
 
-This is converted into a textual prompt:
+---
 
-```
-Generate Burmese sentence:
-Meaning: ask for help
-Context: formal
-Politeness: high
-Tone: neutral
-Power: lower → higher
-```
+## Direction Change
+
+This project originally proposed **text generation** with mT5. We pivoted to **classification** with XLM-RoBERTa for three reasons:
+
+1. The dataset has only 22 root meanings with ~100 near-identical variations — insufficient diversity for a generation model to generalise
+2. BLEU/chrF are unreliable when many surface forms are all valid for the same intent
+3. Early training confirmed non-convergence (loss ~27, one run produced `training_loss=0.0, val_loss=NaN` from a GPU FP16 bug)
+
+Classification provides clean metrics, a falsifiable research claim, and a well-defined evaluation setup.
 
 ---
 
-### Model
+## Research Questions
 
-* Model: mT5 (multilingual text-to-text transformer)
-* Approach: Fine-tuning using structured prompts and target Burmese sentences
+**RQ1:** How much does adding social context improve Burmese politeness classification over an utterance-only baseline?
 
+**RQ2:** What is the oracle upper bound when explicit pragmatic metadata is provided?
 
-
----
-
-### System Pipeline
-
-1. Structured attribute input
-2. Prompt construction
-3. Model fine-tuning
-4. Sentence generation
-5. Evaluation
-
-The full framework is illustrated in the proposal (Figure 1, page 3) .
+**RQ3:** How much of the oracle benefit is preserved in an end-to-end pipeline, and what is the error propagation cost?
 
 ---
 
-## Experimental Design
+## Preprocessing
 
-We evaluate multiple model configurations:
-
-| Model         | Input Features                     |
-| ------------- | ---------------------------------- |
-| Zero-shot mT5 | No fine-tuning                     |
-| Meaning-only  | Semantic meaning only              |
-| Context-aware | Meaning + context                  |
-| Full model    | Meaning + all pragmatic attributes |
-
-Expected progression:
-
-Zero-shot → Meaning-only → Context-aware → Full model
+- **Politeness:** 13 original labels → 6 classes (rare labels merged by semantic similarity)
+- **Tone:** 131 free-text values → 5 Appraisal Theory categories
+- **Power relation:** 8 values → 4 classes (role-specific inferior variants merged)
+- **Class imbalance:** weighted cross-entropy loss (neutral weight: 0.318, rude weight: 6.111)
 
 ---
 
-## Evaluation
+## Next Steps
 
-A dual evaluation strategy is used:
-
-### 1. Text Similarity
-
-* BLEU
-* chrF
-
-### 2. Pragmatic Consistency
-
-* Attribute classification (politeness, tone, power)
-* Comparison between predicted and target attributes
-
-
-
----
-
-## Analysis Plan
-
-* Attribute ablation to measure individual contribution
-* Attribute-level evaluation
-* Error analysis of incorrect generations
-* Performance analysis on rare attribute combinations
-
----
-
-## Expected Results
-
-* The full model is expected to achieve the best performance
-* Incorporating contextual and pragmatic attributes improves output quality
-* Not all attributes contribute equally
-* Text similarity metrics do not fully capture pragmatic correctness
-
-
-
----
-
-## Limitations
-
-* Small dataset (~2,200 samples)
-* Potential bias in classifier-based evaluation
-* Limited generalization beyond dataset scope
-* Focus restricted to Burmese
-
-
-
----
-
-## Current Progress
-
-Completed:
-
-* Dataset exploration and analysis
-* Methodology design
-* Prompt construction framework
-* Experimental setup planning
-* Proposal and diagrams
-
-Next steps:
-
-* Implement training pipeline
-* Fine-tune mT5 model
-* Develop evaluation classifier
-* Conduct experiments
-
-
+- [ ] Zero-shot baseline with GPT-4 and Gemini (Stage 0)
+- [ ] Improve intermediate classifiers (target: >0.80 macro F1)
+- [ ] Error analysis on misclassified Burmese examples
+- [ ] Final paper
 
 ---
 
 ## Team
 
-**Group: AttentionIsAllYouNeed**
-
-* Thet Su Sann
-* Thiri Shin Thant
-* Hein Min Htet
-* Tisa Bajracharya
+| Name | Email |
+|---|---|
+| Thet Su Sann | st126316@ait.asia |
+| Thiri Shin Thant | st126018@ait.asia |
+| Hein Min Htet | st126459@ait.asia |
+| Tisa Bajracharya | st126686@ait.asia |
 
 ---
 
 ## References
 
-* Burmese Contextual Pragmatics Dataset (freococo, 2024)
-* mT5: Multilingual Text-to-Text Transformer (Xue et al., 2021)
-* BLEU and chrF evaluation metrics
-
----
-
-## Key Contribution
-
-This project contributes:
-
-* A framework for controllable pragmatic generation
-* A focus on low-resource language modeling
-* A dual evaluation approach combining semantic and pragmatic metrics
-
----
-
-## Future Work
-
-* Expand dataset size
-* Extend to additional languages
-* Improve pragmatic evaluation methods
-* Explore larger model variants (mT5-base, mT5-large)
-
----
-
+- Conneau et al. (2020). Unsupervised Cross-lingual Representation Learning at Scale. *ACL 2020*.
+- Martin, J.R. & White, P.R.R. (2005). *The Language of Evaluation: Appraisal in English*. Palgrave Macmillan.
+- freococo (2024). Burmese Contextual Pragmatics Dataset. HuggingFace.
