@@ -1,0 +1,8 @@
+{
+  "model": "ChatGPT o4-mini",
+  "accuracy": 0.5636,
+  "macro_f1": 0.6346,
+  "weighted_f1": 0.5372,
+  "n_examples": 330,
+  "n_missing": 0
+}

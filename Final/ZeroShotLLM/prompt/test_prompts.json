@@ -1,0 +1,3302 @@
+[
+  {
+    "id": 0,
+    "true_label": "neutral",
+    "utterance": "နေမကောင်းဖြစ်ရတာ ပင်ပန်းတယ်။",
+    "context": "Chronic illness.",
+    "instruction": "Tired of being sick.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "emotional"
+  },
+  {
+    "id": 1,
+    "true_label": "neutral",
+    "utterance": "ဘယ်နားမှာ ရပ်နေတာလဲ။",
+    "context": "Meeting at a specific landmark.",
+    "instruction": "Asking 'Where are you standing?'.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 2,
+    "true_label": "neutral",
+    "utterance": "မကြာခင် တွေ့ကြမယ်။",
+    "context": "Expecting to meet in a short time.",
+    "instruction": "See you soon.",
+    "register": "standard",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 3,
+    "true_label": "neutral",
+    "utterance": "တက္ကစီနဲ့ လာနေတာ။",
+    "context": "Transportation.",
+    "instruction": "Mention you are coming by taxi.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 4,
+    "true_label": "informal",
+    "utterance": "အခု သွားလိုက်တော့နော်။",
+    "context": "Close friends.",
+    "instruction": "Friendly nudge to go.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "emotional"
+  },
+  {
+    "id": 5,
+    "true_label": "neutral",
+    "utterance": "အို... အားနာလိုက်တာ။",
+    "context": "Unexpected gift.",
+    "instruction": "Shock at an act of kindness.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "positive"
+  },
+  {
+    "id": 6,
+    "true_label": "neutral",
+    "utterance": "ထွက်လေဝင်လေတိုင်းမှာ ချစ်တယ်။",
+    "context": "High romantic vow.",
+    "instruction": "Love you with every breath.",
+    "register": "standard",
+    "power": "equal",
+    "tone": "formal"
+  },
+  {
+    "id": 7,
+    "true_label": "blunt",
+    "utterance": "အမြန်ဆုံး သွား။",
+    "context": "Time critical.",
+    "instruction": "Tell someone to go as fast as they can.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "emotional"
+  },
+  {
+    "id": 8,
+    "true_label": "polite",
+    "utterance": "ရိုသေမှု ကင်းသွားရင် တောင်းပန်ပါတယ်။",
+    "context": "Addressing an elder.",
+    "instruction": "Apology for a lack of respect.",
+    "register": "standard",
+    "power": "inferior_to_superior",
+    "tone": "formal"
+  },
+  {
+    "id": 9,
+    "true_label": "informal",
+    "utterance": "ကဲ... ပြန်တော့လေ။",
+    "context": "Casual friends.",
+    "instruction": "Friendly casual push to go.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "positive"
+  },
+  {
+    "id": 10,
+    "true_label": "neutral",
+    "utterance": "သီချင်းမဆိုနဲ့တော့။",
+    "context": "Noisy room.",
+    "instruction": "Stop singing.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 11,
+    "true_label": "informal",
+    "utterance": "တာတာ (Tata)။",
+    "context": "Youth culture.",
+    "instruction": "Modern slang 'Bye bye'.",
+    "register": "slang",
+    "power": "equal",
+    "tone": "positive"
+  },
+  {
+    "id": 12,
+    "true_label": "informal",
+    "utterance": "ဗိုက်ဆာတယ်ဟင်။",
+    "context": "To a partner or sibling.",
+    "instruction": "Softly mention hunger to a close person.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "positive"
+  },
+  {
+    "id": 13,
+    "true_label": "polite",
+    "utterance": "ဗိုက်ဆာနေပြီမို့ မြန်မြန်လေး ပို့ပေးပါ။",
+    "context": "At a restaurant after waiting.",
+    "instruction": "Express hunger to a waiter.",
+    "register": "standard",
+    "power": "inferior_to_superior",
+    "tone": "formal"
+  },
+  {
+    "id": 14,
+    "true_label": "neutral",
+    "utterance": "ဂီတပွဲမှာတွေ့မယ်။",
+    "context": "Event.",
+    "instruction": "See you at the concert.",
+    "register": "standard",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 15,
+    "true_label": "polite",
+    "utterance": "သတင်းကြားတဲ့အထိ ခဏစောင့်ပါ။",
+    "context": "Waiting for updates.",
+    "instruction": "Wait for the news.",
+    "register": "standard",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 16,
+    "true_label": "neutral",
+    "utterance": "ကြယ်လေးတစ်ပွင့်လို လှပနေတယ်။",
+    "context": "Romantic.",
+    "instruction": "Comparing to a star.",
+    "register": "standard",
+    "power": "equal",
+    "tone": "positive"
+  },
+  {
+    "id": 17,
+    "true_label": "neutral",
+    "utterance": "ဆူညံသံတွေနဲ့ ပင်ပန်းလှပြီ။",
+    "context": "Urban stress.",
+    "instruction": "Tired of city noise.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 18,
+    "true_label": "neutral",
+    "utterance": "ဟင့်အင်း၊ မသိဘူး။",
+    "context": "Non-verbal emphasized speech.",
+    "instruction": "Answer 'I don't know' while shaking the head.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 19,
+    "true_label": "neutral",
+    "utterance": "စက်ဘီးရပ်လိုက်။",
+    "context": "Logistics.",
+    "instruction": "Stop the bicycle.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 20,
+    "true_label": "polite",
+    "utterance": "ကျွန်တော် သိပ်မသိပါဘူး။",
+    "context": "Academic or professional setting.",
+    "instruction": "Humbly admit not knowing much.",
+    "register": "standard",
+    "power": "inferior_to_superior",
+    "tone": "formal"
+  },
+  {
+    "id": 21,
+    "true_label": "neutral",
+    "utterance": "မင်း တကယ် လှတယ်။",
+    "context": "General social interaction.",
+    "instruction": "Simple standard compliment.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 22,
+    "true_label": "polite",
+    "utterance": "အစ်မ ကောင်းကောင်းအိပ်ပါ။",
+    "context": "Sibling interaction.",
+    "instruction": "Sleep well, older sister.",
+    "register": "standard",
+    "power": "inferior_to_superior",
+    "tone": "positive"
+  },
+  {
+    "id": 23,
+    "true_label": "polite",
+    "utterance": "အရမ်း လှပါတယ်ခင်ဗျာ။",
+    "context": "Addressing a lady respectfully.",
+    "instruction": "Polite compliment as a male speaker.",
+    "register": "standard",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 24,
+    "true_label": "neutral",
+    "utterance": "တကယ့်ကို တော်တာပဲ။",
+    "context": "Watching a performer.",
+    "instruction": "Surprise at someone's talent.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "positive"
+  },
+  {
+    "id": 25,
+    "true_label": "polite",
+    "utterance": "အကူအညီ ပေးသနားကြပါ။",
+    "context": "Addressing an audience.",
+    "instruction": "Formal 'Pardon' or 'Help'.",
+    "register": "formal",
+    "power": "inferior_to_superior",
+    "tone": "formal"
+  },
+  {
+    "id": 26,
+    "true_label": "professional",
+    "utterance": "သတ်မှတ်ထားသော နေရာသို့ သွားရောက်ပေးပါ။",
+    "context": "Office or security.",
+    "instruction": "Formal 'Proceed to the designated area'.",
+    "register": "formal",
+    "power": "any",
+    "tone": "formal"
+  },
+  {
+    "id": 27,
+    "true_label": "polite",
+    "utterance": "အစ်မ... နောက်မှတွေ့မယ်နော်။",
+    "context": "Family/Close relationship.",
+    "instruction": "Friendly 'See you later' to an older sister.",
+    "register": "colloquial",
+    "power": "inferior_to_superior",
+    "tone": "positive"
+  },
+  {
+    "id": 28,
+    "true_label": "informal",
+    "utterance": "မစနဲ့တော့။",
+    "context": "Friends.",
+    "instruction": "Stop teasing/joking.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "emotional"
+  },
+  {
+    "id": 29,
+    "true_label": "neutral",
+    "utterance": "မရှာနဲ့တော့။",
+    "context": "General.",
+    "instruction": "Stop the investigation/search.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 30,
+    "true_label": "rude",
+    "utterance": "နိုးလာသေးသားပဲ၊ မင်္ဂလာပါ။",
+    "context": "After a long night.",
+    "instruction": "Check if they are 'still alive' (joke morning).",
+    "register": "slang",
+    "power": "equal",
+    "tone": "positive"
+  },
+  {
+    "id": 31,
+    "true_label": "informal",
+    "utterance": "အား (Battery) ကုန်နေပြီ။",
+    "context": "Youth culture.",
+    "instruction": "State that energy is at 0% (Slang).",
+    "register": "slang",
+    "power": "equal",
+    "tone": "emotional"
+  },
+  {
+    "id": 32,
+    "true_label": "professional",
+    "utterance": "ယခု ရောက်ရှိလာနေပြီ ဖြစ်ပါသည်။",
+    "context": "Official event or diplomatic setting.",
+    "instruction": "High formal announcement of arrival.",
+    "register": "formal",
+    "power": "equal",
+    "tone": "formal"
+  },
+  {
+    "id": 33,
+    "true_label": "neutral",
+    "utterance": "ထပ်နေလည်း ဘာမှ ထူးမှာ မဟုတ်ဘူး။",
+    "context": "Conflict resolution.",
+    "instruction": "Staying is useless.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "negative"
+  },
+  {
+    "id": 34,
+    "true_label": "informal",
+    "utterance": "မင်းကတော့ ဆရာ့ဆရာပဲ။",
+    "context": "To an expert.",
+    "instruction": "Calling someone a 'master'.",
+    "register": "slang",
+    "power": "inferior_to_superior",
+    "tone": "formal"
+  },
+  {
+    "id": 35,
+    "true_label": "neutral",
+    "utterance": "ဘာတွေလုပ်လိုက်တာလဲ။",
+    "context": "Barber mistake.",
+    "instruction": "Shock at a bad hairstyle.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "emotional"
+  },
+  {
+    "id": 36,
+    "true_label": "neutral",
+    "utterance": "မသိဘူး၊ သူ့ကို မေးကြည့်။",
+    "context": "Helpful but ignorant.",
+    "instruction": "State lack of knowledge and suggest asking someone else.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 37,
+    "true_label": "informal",
+    "utterance": "ရိုက်ပေးတာ ကျေးဇူးနော်။",
+    "context": "Travel photography.",
+    "instruction": "Brief thanks for the photo.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "emotional"
+  },
+  {
+    "id": 38,
+    "true_label": "professional",
+    "utterance": "ထူးကဲသော ဉာဏ်ပညာရှိသူ ဖြစ်ပါသည်။",
+    "context": "Job recommendation.",
+    "instruction": "Formal 'Excellent' characterization.",
+    "register": "formal",
+    "power": "superior_to_inferior",
+    "tone": "formal"
+  },
+  {
+    "id": 39,
+    "true_label": "informal",
+    "utterance": "ကူစမ်းပါဦး ငါ့ညီရဲ့။",
+    "context": "Siblings or very close friends.",
+    "instruction": "Forceful request among brothers.",
+    "register": "colloquial",
+    "power": "superior_to_inferior",
+    "tone": "neutral"
+  },
+  {
+    "id": 40,
+    "true_label": "neutral",
+    "utterance": "အမေ့... ပူလိုက်တာ။",
+    "context": "Touching something hot.",
+    "instruction": "Sudden sharp surprise.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "emotional"
+  },
+  {
+    "id": 41,
+    "true_label": "neutral",
+    "utterance": "သွားပြီ၊ စိတ်မပူနဲ့နော်။",
+    "context": "Reassurance.",
+    "instruction": "I'm leaving, don't worry.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "positive"
+  },
+  {
+    "id": 42,
+    "true_label": "neutral",
+    "utterance": "ရုပ်ရော စိတ်ရော ပင်ပန်းတယ်။",
+    "context": "Burnout.",
+    "instruction": "State that mind and body are both tired.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "formal"
+  },
+  {
+    "id": 43,
+    "true_label": "rude",
+    "utterance": "လာနေပြီ၊ စောင့်နေလိုက်။",
+    "context": "In a fight.",
+    "instruction": "Tell someone to wait, you're coming (angry).",
+    "register": "colloquial",
+    "power": "any",
+    "tone": "negative"
+  },
+  {
+    "id": 44,
+    "true_label": "neutral",
+    "utterance": "အဆောက်အဦးရဲ့ ဘယ်မှာလဲ။",
+    "context": "Looking for office.",
+    "instruction": "Asking 'Where are you in the building?'.",
+    "register": "standard",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 45,
+    "true_label": "neutral",
+    "utterance": "စိတ်ပူပေးတာ ကျေးဇူးပါ။",
+    "context": "When someone asks if you are okay.",
+    "instruction": "Say thanks for the concern.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "positive"
+  },
+  {
+    "id": 46,
+    "true_label": "neutral",
+    "utterance": "အမလေး... ကုန်ပါပြီ။",
+    "context": "Restaurant.",
+    "instruction": "Shock at an expensive bill.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "emotional"
+  },
+  {
+    "id": 47,
+    "true_label": "informal",
+    "utterance": "အစ်မ ဘယ်သွားမလို့လဲ။",
+    "context": "To a female peer.",
+    "instruction": "Asking 'Where are you going, Sister?'.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "emotional"
+  },
+  {
+    "id": 48,
+    "true_label": "neutral",
+    "utterance": "ဗိုက်ဆာတယ်။",
+    "context": "Casual conversation with a peer.",
+    "instruction": "State hunger in a simple, direct way.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 49,
+    "true_label": "informal",
+    "utterance": "အခြေအနေ ဘယ်လိုလဲ၊ ပျော်ကြလား။",
+    "context": "Social event.",
+    "instruction": "Asking about the 'feeling' in the air.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "emotional"
+  },
+  {
+    "id": 50,
+    "true_label": "neutral",
+    "utterance": "မကနဲ့တော့။",
+    "context": "Practice.",
+    "instruction": "Stop dancing.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 51,
+    "true_label": "neutral",
+    "utterance": "အိတ်လာယူနေတာ။",
+    "context": "Forgot something.",
+    "instruction": "Mention you are coming to fetch your bag.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 52,
+    "true_label": "neutral",
+    "utterance": "ဆရာဝန်သွားပြဦးမယ်။",
+    "context": "Health.",
+    "instruction": "I'm leaving to see the doctor.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 53,
+    "true_label": "informal",
+    "utterance": "ကိုယ့်မိဖုရားလေးကို ချစ်တယ်။",
+    "context": "Male to female.",
+    "instruction": "I love you, my queen.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "positive"
+  },
+  {
+    "id": 54,
+    "true_label": "neutral",
+    "utterance": "မစားနဲ့တော့။",
+    "context": "Mealtime.",
+    "instruction": "Stop eating (diet/full).",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 55,
+    "true_label": "informal",
+    "utterance": "နိုးပြီလား ဝက်ကလေး။",
+    "context": "Home.",
+    "instruction": "Greeting to a sibling.",
+    "register": "slang",
+    "power": "equal",
+    "tone": "emotional"
+  },
+  {
+    "id": 56,
+    "true_label": "rude",
+    "utterance": "လာခဲ့၊ ထွက်သွားဖို့ပြင်။",
+    "context": "Argument.",
+    "instruction": "Tell someone to come here to be kicked out.",
+    "register": "colloquial",
+    "power": "superior_to_inferior",
+    "tone": "negative"
+  },
+  {
+    "id": 57,
+    "true_label": "polite",
+    "utterance": "ဟိုသစ်ပင်ဆီ သွားလိုက်ပါ။",
+    "context": "Outdoor navigation.",
+    "instruction": "Tell someone to go to 'that tree'.",
+    "register": "colloquial",
+    "power": "any",
+    "tone": "neutral"
+  },
+  {
+    "id": 58,
+    "true_label": "neutral",
+    "utterance": "မွေးနေ့ဆုတောင်းအတွက် ကျေးဇူးပါ။",
+    "context": "Birthday.",
+    "instruction": "Thanks for the birthday wish.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "positive"
+  },
+  {
+    "id": 59,
+    "true_label": "rude",
+    "utterance": "အပေါက်က ဟိုမှာပါ။",
+    "context": "Rude dismissal.",
+    "instruction": "Point out the exit sarcastically.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "negative"
+  },
+  {
+    "id": 60,
+    "true_label": "polite",
+    "utterance": "ဟိုနေရာသို့ ကြွရောက်ပေးပါရန်။",
+    "context": "Addressing a monk or high official.",
+    "instruction": "Highly formal request to proceed to a place.",
+    "register": "formal",
+    "power": "inferior_to_superior",
+    "tone": "formal"
+  },
+  {
+    "id": 61,
+    "true_label": "neutral",
+    "utterance": "အလုပ်များနေလား။",
+    "context": "Greeting a professional.",
+    "instruction": "Asking if they are 'busy' as a greeting.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 62,
+    "true_label": "neutral",
+    "utterance": "ရွာပြန်တော့မယ်။",
+    "context": "Travel.",
+    "instruction": "I'm leaving to go home (to my village).",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 63,
+    "true_label": "neutral",
+    "utterance": "ဒီအချိန်မှာ ပြန်သင့်နေပါပြီ။",
+    "context": "Strict environment.",
+    "instruction": "State that one should have left by now.",
+    "register": "standard",
+    "power": "equal",
+    "tone": "formal"
+  },
+  {
+    "id": 64,
+    "true_label": "blunt",
+    "utterance": "မြန်မြန် သွား။",
+    "context": "Rush.",
+    "instruction": "Tell someone to go 'quickly'.",
+    "register": "colloquial",
+    "power": "any",
+    "tone": "neutral"
+  },
+  {
+    "id": 65,
+    "true_label": "neutral",
+    "utterance": "အဆုံးထိ ချစ်သွားမယ်။",
+    "context": "Vows or deep commitment.",
+    "instruction": "State that you will love them till the end.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "formal"
+  },
+  {
+    "id": 66,
+    "true_label": "neutral",
+    "utterance": "ငြိမ်ငြိမ်သက်သက် အိပ်ပျော်ပါစေ။",
+    "context": "Supportive.",
+    "instruction": "Wishing a quiet night.",
+    "register": "standard",
+    "power": "equal",
+    "tone": "positive"
+  },
+  {
+    "id": 67,
+    "true_label": "professional",
+    "utterance": "နားထောင်ပေးမှုအတွက် ကျေးဇူးတင်ပါသည်။",
+    "context": "End of a talk.",
+    "instruction": "Formal thanks to an audience.",
+    "register": "formal",
+    "power": "superior_to_inferior",
+    "tone": "formal"
+  },
+  {
+    "id": 68,
+    "true_label": "neutral",
+    "utterance": "သမ်းနေပြီ၊ အိပ်တော့မယ်။",
+    "context": "Very tired.",
+    "instruction": "I'm yawning, night.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "emotional"
+  },
+  {
+    "id": 69,
+    "true_label": "neutral",
+    "utterance": "တကယ်ကြီးလား။",
+    "context": "Hearing unbelievable gossip.",
+    "instruction": "Expressing 'Really?'.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "emotional"
+  },
+  {
+    "id": 70,
+    "true_label": "blunt",
+    "utterance": "လာနေပြီလို့။",
+    "context": "Urgent call.",
+    "instruction": "Tell a peer you're coming right now (emphatic).",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 71,
+    "true_label": "neutral",
+    "utterance": "နေလို့ ကောင်းလာပြီလား။",
+    "context": "To someone who was tired.",
+    "instruction": "Direct inquiry about feeling better.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 72,
+    "true_label": "neutral",
+    "utterance": "ဘူတာရုံသွားတော့မယ်။",
+    "context": "Travel.",
+    "instruction": "I'm leaving for the station.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 73,
+    "true_label": "neutral",
+    "utterance": "ပျက်စီးသွားလို့ တောင်းပန်ပါတယ်။",
+    "context": "Breaking a friend's tool/item.",
+    "instruction": "Apology for a broken item.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 74,
+    "true_label": "neutral",
+    "utterance": "ဘယ်ကွင်းမှာ ကစားနေတာလဲ။",
+    "context": "Sports/Games.",
+    "instruction": "Asking 'Where are you playing?'.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 75,
+    "true_label": "polite",
+    "utterance": "အလေးထားပေးတာ ကျေးဇူးတင်ပါတယ်။",
+    "context": "After a presentation.",
+    "instruction": "Formal thanks for the attention.",
+    "register": "standard",
+    "power": "equal",
+    "tone": "formal"
+  },
+  {
+    "id": 76,
+    "true_label": "neutral",
+    "utterance": "သွားပြီ၊ နောက်မှတွေ့မယ်။",
+    "context": "General.",
+    "instruction": "I'm leaving, see you later.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 77,
+    "true_label": "neutral",
+    "utterance": "အိမ်ရောက်မှ တွေ့မယ်။",
+    "context": "Waiting for someone.",
+    "instruction": "See you when you are home.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 78,
+    "true_label": "neutral",
+    "utterance": "ဉာဏ်အလင်း ရှိလိုက်တာ။",
+    "context": "Inspiring talk.",
+    "instruction": "Praise someone for their 'bright' eyes/intellect.",
+    "register": "standard",
+    "power": "any",
+    "tone": "neutral"
+  },
+  {
+    "id": 79,
+    "true_label": "polite",
+    "utterance": "အတွေ့အကြုံ မရှိလို့ မသိပါဘူး။",
+    "context": "Job interview.",
+    "instruction": "Express you don't know due to lack of experience.",
+    "register": "standard",
+    "power": "inferior_to_superior",
+    "tone": "formal"
+  },
+  {
+    "id": 80,
+    "true_label": "polite",
+    "utterance": "ကလေးအတွက် ကူညီပေးပါဦး။",
+    "context": "To a doctor or bystander.",
+    "instruction": "Request help for a child.",
+    "register": "standard",
+    "power": "any",
+    "tone": "emotional"
+  },
+  {
+    "id": 81,
+    "true_label": "informal",
+    "utterance": "အိပ်တော့ဟ။",
+    "context": "To a close friend.",
+    "instruction": "Go sleep now (Short slang).",
+    "register": "slang",
+    "power": "equal",
+    "tone": "emotional"
+  },
+  {
+    "id": 82,
+    "true_label": "informal",
+    "utterance": "သည်းလေး ဘယ်မှာလဲ။",
+    "context": "To a child/partner.",
+    "instruction": "Asking 'Where are you, my dear?'.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "positive"
+  },
+  {
+    "id": 83,
+    "true_label": "neutral",
+    "utterance": "ညီမလေးက လှလာလိုက်တာ။",
+    "context": "Sibling interaction.",
+    "instruction": "Complimenting a younger sister.",
+    "register": "colloquial",
+    "power": "superior_to_inferior",
+    "tone": "positive"
+  },
+  {
+    "id": 84,
+    "true_label": "neutral",
+    "utterance": "သန်လိုက်တာ။",
+    "context": "Gym.",
+    "instruction": "Surprise at how strong someone is.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "positive"
+  },
+  {
+    "id": 85,
+    "true_label": "informal",
+    "utterance": "ဘယ်ပျောက်နေတာလဲ။",
+    "context": "Someone hasn't replied in hours.",
+    "instruction": "Asking 'Where did you disappear to?'.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "emotional"
+  },
+  {
+    "id": 86,
+    "true_label": "neutral",
+    "utterance": "အရေအတွက် မသိဘူး။",
+    "context": "Asked 'how many?'.",
+    "instruction": "State lack of knowledge about a quantity.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 87,
+    "true_label": "neutral",
+    "utterance": "အပြင်မှာ ခဏစောင့်ပါ။",
+    "context": "Office/Clinic door.",
+    "instruction": "Tell someone to wait outside.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 88,
+    "true_label": "polite",
+    "utterance": "အိပ်စက်အနားယူပါတော့ခင်ဗျာ။",
+    "context": "Addressing a patron.",
+    "instruction": "Sleep well (Male - very humble).",
+    "register": "standard",
+    "power": "inferior_to_superior",
+    "tone": "formal"
+  },
+  {
+    "id": 89,
+    "true_label": "neutral",
+    "utterance": "အဖွဲ့ထဲက ထွက်သွားပြီ။",
+    "context": "Group interaction.",
+    "instruction": "I'm leaving the group (Chat/Social).",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 90,
+    "true_label": "neutral",
+    "utterance": "သဘာဝအတိုင်းလေးနဲ့ လှတယ်။",
+    "context": "Appreciating simplicity.",
+    "instruction": "Stating that beauty is natural.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "positive"
+  },
+  {
+    "id": 91,
+    "true_label": "neutral",
+    "utterance": "ဘယ်တွေ ရောက်နေတာလဲ။",
+    "context": "Someone is very late.",
+    "instruction": "Impatience: 'Where are you getting to?'.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "negative"
+  },
+  {
+    "id": 92,
+    "true_label": "polite",
+    "utterance": "ခဏလောက် ကူညီပေးလို့ ရမလားခင်ဗျာ။",
+    "context": "To a stranger.",
+    "instruction": "Request 'a little bit' of help politely.",
+    "register": "standard",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 93,
+    "true_label": "neutral",
+    "utterance": "နေရာမသိဘူး။",
+    "context": "Tourist context.",
+    "instruction": "State lack of knowledge about a place.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 94,
+    "true_label": "neutral",
+    "utterance": "အားမှ တွေ့မယ်။",
+    "context": "Unscheduled meeting.",
+    "instruction": "See you when you are free.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 95,
+    "true_label": "informal",
+    "utterance": "ပင်ပန်းတယ်၊ ပင်ပန်းတယ်ကွယ်။",
+    "context": "Very exhausted.",
+    "instruction": "Repetitive 'tired' for emphasis.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "emotional"
+  },
+  {
+    "id": 96,
+    "true_label": "neutral",
+    "utterance": "ဒဏ္ဍာရီထဲကလို လှတယ်။",
+    "context": "Extreme praise.",
+    "instruction": "State that one is a 'Legendary beauty'.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "formal"
+  },
+  {
+    "id": 97,
+    "true_label": "neutral",
+    "utterance": "ရွေးဖို့ ကူညီပါဦး။",
+    "context": "Counter interaction.",
+    "instruction": "Request help while shopping.",
+    "register": "colloquial",
+    "power": "any",
+    "tone": "neutral"
+  },
+  {
+    "id": 98,
+    "true_label": "polite",
+    "utterance": "ဆူညံသွားရင် တောင်းပန်ပါတယ်နော်။",
+    "context": "Neighbor or roommate context.",
+    "instruction": "Apology for being noisy.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 99,
+    "true_label": "neutral",
+    "utterance": "အလုပ်မလုပ်နဲ့တော့၊ နားတော့။",
+    "context": "Co-worker.",
+    "instruction": "Stop working for today.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "positive"
+  },
+  {
+    "id": 100,
+    "true_label": "informal",
+    "utterance": "ငါ ဂိတ်ဆုံးနေပြီ၊ ကူဦး။",
+    "context": "Among peers.",
+    "instruction": "State you are 'stuck' (slang).",
+    "register": "slang",
+    "power": "equal",
+    "tone": "emotional"
+  },
+  {
+    "id": 101,
+    "true_label": "informal",
+    "utterance": "လာပြီကွ။",
+    "context": "Among young friends.",
+    "instruction": "Urban slang for 'I'm coming'.",
+    "register": "slang",
+    "power": "equal",
+    "tone": "emotional"
+  },
+  {
+    "id": 102,
+    "true_label": "polite",
+    "utterance": "ကန်တော့ပါတယ်ဘုရား။",
+    "context": "Addressing an elder, monk, or parent.",
+    "instruction": "Religious or high-respect apology.",
+    "register": "formal",
+    "power": "inferior_to_superior",
+    "tone": "formal"
+  },
+  {
+    "id": 103,
+    "true_label": "professional",
+    "utterance": "ပြည်သူများ၏ အကူအညီ လိုအပ်ပါသည်။",
+    "context": "Disaster relief.",
+    "instruction": "Formal request for public aid.",
+    "register": "formal",
+    "power": "superior_to_inferior",
+    "tone": "formal"
+  },
+  {
+    "id": 104,
+    "true_label": "informal",
+    "utterance": "ဘိုင့်ဘိုင် (Bye bye)။",
+    "context": "Messenger/Chat.",
+    "instruction": "See you later (Transliterated Bye Bye).",
+    "register": "slang",
+    "power": "equal",
+    "tone": "emotional"
+  },
+  {
+    "id": 105,
+    "true_label": "polite",
+    "utterance": "အစ်မက အရမ်းလှတာပဲ။",
+    "context": "Sibling interaction.",
+    "instruction": "Complimenting an older sister.",
+    "register": "colloquial",
+    "power": "inferior_to_superior",
+    "tone": "positive"
+  },
+  {
+    "id": 106,
+    "true_label": "informal",
+    "utterance": "အစ်မ... ပင်ပန်းနေပြီ။",
+    "context": "To a female friend.",
+    "instruction": "I'm tired, Sister (Friendly).",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "emotional"
+  },
+  {
+    "id": 107,
+    "true_label": "neutral",
+    "utterance": "ခန့်မှန်းတာ မှန်လိုက်တာ၊ တော်တယ်။",
+    "context": "Figuring out a secret.",
+    "instruction": "Praise for 'detective-like' smarts.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 108,
+    "true_label": "informal",
+    "utterance": "ပရိုဖိုင်း (Profile) ပုံလေးက အရမ်းလှတယ်။",
+    "context": "Digital.",
+    "instruction": "Complimenting a profile picture.",
+    "register": "slang",
+    "power": "equal",
+    "tone": "positive"
+  },
+  {
+    "id": 109,
+    "true_label": "blunt",
+    "utterance": "အိမ်ကို ပြန်သွားတော့။",
+    "context": "Dismissal.",
+    "instruction": "Tell someone to go 'back' home.",
+    "register": "colloquial",
+    "power": "superior_to_inferior",
+    "tone": "neutral"
+  },
+  {
+    "id": 110,
+    "true_label": "informal",
+    "utterance": "မင်းဉာဏ်ကို ငါ အားကျတယ်ကွာ။",
+    "context": "To a peer who ace-ed a test.",
+    "instruction": "Express envy at someone's intelligence.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "negative"
+  },
+  {
+    "id": 111,
+    "true_label": "polite",
+    "utterance": "နေကောင်းပါတယ်နော်။",
+    "context": "Close friend.",
+    "instruction": "Soft male check in.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "positive"
+  },
+  {
+    "id": 112,
+    "true_label": "informal",
+    "utterance": "ဟင်းနံ့က ဆာအောင် လုပ်နေတာပဲ။",
+    "context": "Near a kitchen.",
+    "instruction": "State hunger while smell is present.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "emotional"
+  },
+  {
+    "id": 113,
+    "true_label": "neutral",
+    "utterance": "ဘယ်အချိန်ကြည့်ကြည့် လှတယ်။",
+    "context": "Deep admiration.",
+    "instruction": "State that beauty is timeless.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "formal"
+  },
+  {
+    "id": 114,
+    "true_label": "neutral",
+    "utterance": "ဒီမြို့ကနေ ထွက်သွားတော့မယ်။",
+    "context": "Travel/Relocation.",
+    "instruction": "I'm leaving this city.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "formal"
+  },
+  {
+    "id": 115,
+    "true_label": "neutral",
+    "utterance": "စိတ်ထားလေး ကောင်းလို့ ချစ်တာ။",
+    "context": "Appreciating character.",
+    "instruction": "Love you because you are kind.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "positive"
+  },
+  {
+    "id": 116,
+    "true_label": "neutral",
+    "utterance": "အခု သွားလို့ရမလား။",
+    "context": "Questioning capability.",
+    "instruction": "Ask if they can go 'now'.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 117,
+    "true_label": "neutral",
+    "utterance": "တံခါးဖွင့်ပေးမယ်၊ ခဏစောင့်။",
+    "context": "Answering the doorbell.",
+    "instruction": "Wait while I open the door.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 118,
+    "true_label": "professional",
+    "utterance": "နံနက် (၇) နာရီ သတင်း မင်္ဂလာပါ။",
+    "context": "Broadcast news.",
+    "instruction": "Formal radio greet with time.",
+    "register": "formal",
+    "power": "superior_to_inferior",
+    "tone": "formal"
+  },
+  {
+    "id": 119,
+    "true_label": "professional",
+    "utterance": "ကုမ္ပဏီကိုယ်စား ကျေးဇူးတင်ရှိပါသည်။",
+    "context": "Business email.",
+    "instruction": "Formal corporate thanks.",
+    "register": "formal",
+    "power": "equal",
+    "tone": "formal"
+  },
+  {
+    "id": 120,
+    "true_label": "neutral",
+    "utterance": "ရုံးမှာတွေ့မယ်။",
+    "context": "Colleagues.",
+    "instruction": "See you at work.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 121,
+    "true_label": "neutral",
+    "utterance": "ပြန်လာမှ တွေ့မယ်။",
+    "context": "Leaving temporarily.",
+    "instruction": "See you later when I'm back.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 122,
+    "true_label": "neutral",
+    "utterance": "ဒီနေ့ မနက်ခင်းက သာယာလိုက်တာ။",
+    "context": "Sunny morning.",
+    "instruction": "Greeting for a 'bright' morning.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 123,
+    "true_label": "neutral",
+    "utterance": "ဒီလမ်းက ပင်ပန်းလှချည်လား။",
+    "context": "Metaphorical or physical path.",
+    "instruction": "Tired of this path.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "formal"
+  },
+  {
+    "id": 124,
+    "true_label": "neutral",
+    "utterance": "ဘယ်နား ကွယ်နေတာလဲ။",
+    "context": "Can't see the person.",
+    "instruction": "Asking 'Where are you hidden?'.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "emotional"
+  },
+  {
+    "id": 125,
+    "true_label": "informal",
+    "utterance": "ငါအလွဲကြီး လွဲပြီ၊ ကူဦး။",
+    "context": "After a mistake.",
+    "instruction": "Request help for a 'mess' (slang).",
+    "register": "slang",
+    "power": "equal",
+    "tone": "emotional"
+  },
+  {
+    "id": 126,
+    "true_label": "polite",
+    "utterance": "ခဏရပ်ပါဦး။",
+    "context": "Pausing a match.",
+    "instruction": "Wait request during a game.",
+    "register": "standard",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 127,
+    "true_label": "informal",
+    "utterance": "ဟိုကို သွားပါဦးလို့။",
+    "context": "To a partner or child.",
+    "instruction": "Soft, sweet request by a female.",
+    "register": "colloquial",
+    "power": "any",
+    "tone": "positive"
+  },
+  {
+    "id": 128,
+    "true_label": "polite",
+    "utterance": "တံတားပေါ်ကို သွားလိုက်ပါ။",
+    "context": "Outdoor.",
+    "instruction": "Call someone to go to the 'bridge'.",
+    "register": "colloquial",
+    "power": "any",
+    "tone": "neutral"
+  },
+  {
+    "id": 129,
+    "true_label": "neutral",
+    "utterance": "ဈေးသွားတော့မယ်။",
+    "context": "Family/Roommates.",
+    "instruction": "I'm going to the market.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 130,
+    "true_label": "neutral",
+    "utterance": "တွေးရတာ ပင်ပန်းနေပြီ။",
+    "context": "Mental stress.",
+    "instruction": "Exhausted from overthinking.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "formal"
+  },
+  {
+    "id": 131,
+    "true_label": "blunt",
+    "utterance": "သွားတော့။",
+    "context": "Superior to inferior.",
+    "instruction": "Command to go.",
+    "register": "standard",
+    "power": "superior_to_inferior",
+    "tone": "neutral"
+  },
+  {
+    "id": 132,
+    "true_label": "blunt",
+    "utterance": "အတတ်နိုင်ဆုံး မြန်မြန် လာခဲ့။",
+    "context": "Critical time.",
+    "instruction": "Tell someone to come as fast as possible.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "emotional"
+  },
+  {
+    "id": 133,
+    "true_label": "professional",
+    "utterance": "အကူအညီ လိုအပ်ပါသည်။",
+    "context": "Written notice.",
+    "instruction": "Formal 'Help required' on a sign.",
+    "register": "formal",
+    "power": "equal",
+    "tone": "formal"
+  },
+  {
+    "id": 134,
+    "true_label": "neutral",
+    "utterance": "အိပ်မက်ဆိုးတွေ မရှိပါစေနဲ့။",
+    "context": "Care.",
+    "instruction": "May you have a nightmare-free night.",
+    "register": "standard",
+    "power": "equal",
+    "tone": "positive"
+  },
+  {
+    "id": 135,
+    "true_label": "neutral",
+    "utterance": "တံခါးဖွင့်တဲ့အထိ ခဏစောင့်။",
+    "context": "Building context.",
+    "instruction": "Wait for the gate to open.",
+    "register": "colloquial",
+    "power": "any",
+    "tone": "neutral"
+  },
+  {
+    "id": 136,
+    "true_label": "neutral",
+    "utterance": "လမင်းကြီးက စောင့်ရှောက်ပါစေ။",
+    "context": "Poetic.",
+    "instruction": "May the moon watch over you.",
+    "register": "standard",
+    "power": "equal",
+    "tone": "positive"
+  },
+  {
+    "id": 137,
+    "true_label": "neutral",
+    "utterance": "မရယ်နဲ့တော့။",
+    "context": "Serious moment.",
+    "instruction": "Stop laughing.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 138,
+    "true_label": "neutral",
+    "utterance": "ဘယ်တော့စားရမှာလဲ၊ ဗိုက်ဆာလှပြီ။",
+    "context": "During a long travel.",
+    "instruction": "State hunger in a weary, long-suffering way.",
+    "register": "colloquial",
+    "power": "any",
+    "tone": "emotional"
+  },
+  {
+    "id": 139,
+    "true_label": "polite",
+    "utterance": "ဒီနေ့ အလုပ်တွေ အောင်မြင်ပါစေ။",
+    "context": "To a coworker.",
+    "instruction": "Greet with a wish for successful work.",
+    "register": "standard",
+    "power": "equal",
+    "tone": "positive"
+  },
+  {
+    "id": 140,
+    "true_label": "neutral",
+    "utterance": "ဈေးမသိဘူး။",
+    "context": "Shopping.",
+    "instruction": "State you don't know the price.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 141,
+    "true_label": "neutral",
+    "utterance": "သူငယ်ချင်းနဲ့ လာနေတာ။",
+    "context": "Group plans.",
+    "instruction": "Mention you are coming with a friend.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 142,
+    "true_label": "neutral",
+    "utterance": "နေကောင်းမှ တွေ့မယ်။",
+    "context": "Sickness.",
+    "instruction": "See you when you are better.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "positive"
+  },
+  {
+    "id": 143,
+    "true_label": "neutral",
+    "utterance": "ဆုတောင်းပေးတာ ကျေးဇူးတင်ပါတယ်။",
+    "context": "When sick.",
+    "instruction": "Sincere thanks for the prayer.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "positive"
+  },
+  {
+    "id": 144,
+    "true_label": "neutral",
+    "utterance": "စကားမပြောတော့ဘူး၊ အိပ်တော့မယ်။",
+    "context": "Ending a long chat.",
+    "instruction": "I'll stop talking now, night.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 145,
+    "true_label": "professional",
+    "utterance": "ကျေးဇူးတင်ရှိပါကြောင်း။",
+    "context": "Official letter or document.",
+    "instruction": "Formal written gratitude.",
+    "register": "formal",
+    "power": "equal",
+    "tone": "formal"
+  },
+  {
+    "id": 146,
+    "true_label": "blunt",
+    "utterance": "မသွားရင် ရဲခေါ်ရလိမ့်မယ်။",
+    "context": "Trespassing.",
+    "instruction": "Threaten with police.",
+    "register": "standard",
+    "power": "any",
+    "tone": "neutral"
+  },
+  {
+    "id": 147,
+    "true_label": "polite",
+    "utterance": "နောင်လည်း ကူညီပေးဖို့ တောင်းဆိုပါတယ်။",
+    "context": "Mentorship.",
+    "instruction": "Humbly admit needing help for a future task.",
+    "register": "standard",
+    "power": "inferior_to_superior",
+    "tone": "formal"
+  },
+  {
+    "id": 148,
+    "true_label": "informal",
+    "utterance": "ခဏဖျန်းဦး။",
+    "context": "Quick delay among peers.",
+    "instruction": "Wait for a bit (slang).",
+    "register": "slang",
+    "power": "equal",
+    "tone": "emotional"
+  },
+  {
+    "id": 149,
+    "true_label": "rude",
+    "utterance": "မင်း မျက်နှာကို မကြည့်ချင်တော့ဘူး၊ သွားတော့။",
+    "context": "Relationship fight.",
+    "instruction": "Expression of disgust and command to leave.",
+    "register": "colloquial",
+    "power": "any",
+    "tone": "negative"
+  },
+  {
+    "id": 150,
+    "true_label": "rude",
+    "utterance": "ဆာတယ်၊ ကျွေး။",
+    "context": "To a sibling.",
+    "instruction": "Direct, short statement of hunger.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 151,
+    "true_label": "neutral",
+    "utterance": "ပြောမထွက်လို့ ကူညီပါဦး။",
+    "context": "Emotional speech.",
+    "instruction": "State you are lost for words.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "emotional"
+  },
+  {
+    "id": 152,
+    "true_label": "neutral",
+    "utterance": "အလုပ်ပြီးတဲ့အထိ ခဏစောင့်။",
+    "context": "At work.",
+    "instruction": "Wait until I finish the task.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 153,
+    "true_label": "neutral",
+    "utterance": "အိတ်လေး မပေးပါဦး။",
+    "context": "Public space.",
+    "instruction": "Ask for help with a heavy bag.",
+    "register": "colloquial",
+    "power": "any",
+    "tone": "neutral"
+  },
+  {
+    "id": 154,
+    "true_label": "neutral",
+    "utterance": "ဘေလ် (Bill) အတွက် ခဏစောင့်ပါ။",
+    "context": "Restaurant context.",
+    "instruction": "Wait for the check/bill.",
+    "register": "colloquial",
+    "power": "any",
+    "tone": "neutral"
+  },
+  {
+    "id": 155,
+    "true_label": "informal",
+    "utterance": "လာပါဦး သားလေးရဲ့။",
+    "context": "Adult to child.",
+    "instruction": "Call a younger person/child.",
+    "register": "colloquial",
+    "power": "superior_to_inferior",
+    "tone": "positive"
+  },
+  {
+    "id": 156,
+    "true_label": "blunt",
+    "utterance": "လာခဲ့လို့ ပြောနေတယ်လေ။",
+    "context": "Serious talk.",
+    "instruction": "Direct emphatic command.",
+    "register": "colloquial",
+    "power": "any",
+    "tone": "neutral"
+  },
+  {
+    "id": 157,
+    "true_label": "neutral",
+    "utterance": "ကားရပ်လိုက်။",
+    "context": "At the station.",
+    "instruction": "Stop the bus.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 158,
+    "true_label": "informal",
+    "utterance": "လာပြီနော် အေ့။",
+    "context": "Casual.",
+    "instruction": "Tell a friend you're coming soon (slang).",
+    "register": "slang",
+    "power": "equal",
+    "tone": "emotional"
+  },
+  {
+    "id": 159,
+    "true_label": "neutral",
+    "utterance": "မကြောက်နဲ့တော့နော်။",
+    "context": "Encouragement.",
+    "instruction": "Stop being scared.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "positive"
+  },
+  {
+    "id": 160,
+    "true_label": "neutral",
+    "utterance": "ရောက်ဖို့ နည်းနည်းပဲ လိုတော့တယ်။",
+    "context": "Very close.",
+    "instruction": "State arrival is imminent.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 161,
+    "true_label": "rude",
+    "utterance": "ထွက်သွားစမ်း။",
+    "context": "Heated argument.",
+    "instruction": "Aggressive command to leave.",
+    "register": "colloquial",
+    "power": "any",
+    "tone": "negative"
+  },
+  {
+    "id": 162,
+    "true_label": "neutral",
+    "utterance": "ဘယ်သူသိမလဲ။",
+    "context": "Indifferent.",
+    "instruction": "Answer with 'Who knows?'.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "negative"
+  },
+  {
+    "id": 163,
+    "true_label": "polite",
+    "utterance": "ဒီဘက်ကို ကြွပါဦး ဆရာ။",
+    "context": "Meeting room.",
+    "instruction": "Polite invitation to a superior.",
+    "register": "standard",
+    "power": "inferior_to_superior",
+    "tone": "formal"
+  },
+  {
+    "id": 164,
+    "true_label": "neutral",
+    "utterance": "တန်းစီတာ ဘယ်နားမှာလဲ။",
+    "context": "Queueing.",
+    "instruction": "Asking 'Where are you in line?'.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 165,
+    "true_label": "neutral",
+    "utterance": "ညနေမှ တွေ့မယ်။",
+    "context": "Same day planning.",
+    "instruction": "See you in the evening.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 166,
+    "true_label": "polite",
+    "utterance": "ရောင်းပန်း ဝယ်ပန်း ပွင့်လား။",
+    "context": "To a shop owner.",
+    "instruction": "Checking in with a focus on 'business'.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 167,
+    "true_label": "informal",
+    "utterance": "ငတ်မွတ်ခေါင်းပါးနေပြီ။",
+    "context": "Joking with friends.",
+    "instruction": "Expression of famine-level hunger.",
+    "register": "slang",
+    "power": "equal",
+    "tone": "emotional"
+  },
+  {
+    "id": 168,
+    "true_label": "polite",
+    "utterance": "နောက်တစ်ကြိမ် အခွင့်အရေးပေးပါ၊ တောင်းပန်ပါတယ်။",
+    "context": "Pleading to a boss.",
+    "instruction": "Request for one more chance.",
+    "register": "standard",
+    "power": "inferior_to_superior",
+    "tone": "emotional"
+  },
+  {
+    "id": 169,
+    "true_label": "neutral",
+    "utterance": "တနင်္လာနေ့မှ တွေ့မယ်။",
+    "context": "Specific day scheduling.",
+    "instruction": "See you on Monday.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 170,
+    "true_label": "professional",
+    "utterance": "နေထိုင်မှု အဆင်ပြေပါသလား။",
+    "context": "Official interview.",
+    "instruction": "Ask about general life comfort (formal).",
+    "register": "formal",
+    "power": "equal",
+    "tone": "formal"
+  },
+  {
+    "id": 171,
+    "true_label": "polite",
+    "utterance": "စောင့်ခိုင်းမိလို့ အားနာပါတယ်၊ ခဏလေးပါ။",
+    "context": "Waiting for a long time.",
+    "instruction": "Sincere apology for the delay.",
+    "register": "standard",
+    "power": "equal",
+    "tone": "emotional"
+  },
+  {
+    "id": 172,
+    "true_label": "informal",
+    "utterance": "ဖေဖေ့ဆီ သွားလိုက်ပါဦး။",
+    "context": "Family.",
+    "instruction": "Call a child to go to 'dad'.",
+    "register": "colloquial",
+    "power": "superior_to_inferior",
+    "tone": "positive"
+  },
+  {
+    "id": 173,
+    "true_label": "neutral",
+    "utterance": "နောက်ကားနဲ့ လာနေပြီ။",
+    "context": "Public transport.",
+    "instruction": "State that you are arriving by the next bus.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 174,
+    "true_label": "informal",
+    "utterance": "မသိပါဘူးအေ့။",
+    "context": "To a female peer.",
+    "instruction": "Answer 'I don't know' as a female friend.",
+    "register": "slang",
+    "power": "equal",
+    "tone": "emotional"
+  },
+  {
+    "id": 175,
+    "true_label": "neutral",
+    "utterance": "ဘယ်အခန်းထဲမှာလဲ။",
+    "context": "In a hotel or office.",
+    "instruction": "Asking 'Which room are you in?'.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 176,
+    "true_label": "neutral",
+    "utterance": "ဘူတာမှာတွေ့မယ်။",
+    "context": "Travel.",
+    "instruction": "See you at the station.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 177,
+    "true_label": "neutral",
+    "utterance": "နေလို့ သက်သာရဲ့လား။",
+    "context": "Recovery check.",
+    "instruction": "Checking on someone after they were sick.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "emotional"
+  },
+  {
+    "id": 178,
+    "true_label": "neutral",
+    "utterance": "ရုပ်ရှင်ပြီးမှ တွေ့မယ်။",
+    "context": "Leisure.",
+    "instruction": "See you after the movie.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 179,
+    "true_label": "neutral",
+    "utterance": "ဒီကို ခဏလာပါဦး။",
+    "context": "Casual social setting.",
+    "instruction": "Invite someone to come for a moment.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "positive"
+  },
+  {
+    "id": 180,
+    "true_label": "informal",
+    "utterance": "ဟန်နီလေးကို ချစ်တယ်။",
+    "context": "Modern couples.",
+    "instruction": "I love you, honey (English loan).",
+    "register": "slang",
+    "power": "equal",
+    "tone": "positive"
+  },
+  {
+    "id": 181,
+    "true_label": "neutral",
+    "utterance": "မျက်နှာသစ်ပြီးပြီလား၊ မင်္ဂလာပါ။",
+    "context": "Home.",
+    "instruction": "Greeting someone coming from the bathroom.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "emotional"
+  },
+  {
+    "id": 182,
+    "true_label": "polite",
+    "utterance": "နောက်ကျသွားလို့ တောင်းပန်ပါတယ်ရှင့်။",
+    "context": "Formal meeting.",
+    "instruction": "Apology for being late (female).",
+    "register": "standard",
+    "power": "inferior_to_superior",
+    "tone": "neutral"
+  },
+  {
+    "id": 183,
+    "true_label": "neutral",
+    "utterance": "မဆိုးနဲ့တော့။",
+    "context": "To a child.",
+    "instruction": "Stop being naughty.",
+    "register": "colloquial",
+    "power": "superior_to_inferior",
+    "tone": "positive"
+  },
+  {
+    "id": 184,
+    "true_label": "blunt",
+    "utterance": "ရှေ့ကို ထွက်လာခဲ့။",
+    "context": "Teacher to student.",
+    "instruction": "Command someone to come to the 'front'.",
+    "register": "standard",
+    "power": "superior_to_inferior",
+    "tone": "neutral"
+  },
+  {
+    "id": 185,
+    "true_label": "neutral",
+    "utterance": "ကျန်းမာရေး လိုက်စားနေတာလား၊ မင်္ဂလာပါ။",
+    "context": "Public park.",
+    "instruction": "Greet while passing someone jogging.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "positive"
+  },
+  {
+    "id": 186,
+    "true_label": "neutral",
+    "utterance": "ဒီမနက် ဘာသတင်းထူးလဲ။",
+    "context": "Peers.",
+    "instruction": "Casual morning check on the 'news'.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 187,
+    "true_label": "neutral",
+    "utterance": "မတ်တတ်တောင် မရပ်နိုင်တော့ဘူး၊ ပင်ပန်းလို့။",
+    "context": "Extreme exhaustion.",
+    "instruction": "State that one is too tired to stand.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 188,
+    "true_label": "neutral",
+    "utterance": "စောလိုက်တာ။",
+    "context": "Guest arrives early.",
+    "instruction": "Surprise at a quick arrival.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "positive"
+  },
+  {
+    "id": 189,
+    "true_label": "neutral",
+    "utterance": "အခုမှ သတိထားမိတယ်၊ ဗိုက်တော်တော်ဆာနေတာပဲ။",
+    "context": "After focusing on work.",
+    "instruction": "State hunger as a sudden realization.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "emotional"
+  },
+  {
+    "id": 190,
+    "true_label": "polite",
+    "utterance": "ဆေးသောက်ဖို့ လာခဲ့ပါ။",
+    "context": "Healthcare.",
+    "instruction": "Command someone to come for their 'medicine'.",
+    "register": "standard",
+    "power": "superior_to_inferior",
+    "tone": "neutral"
+  },
+  {
+    "id": 191,
+    "true_label": "informal",
+    "utterance": "ကျေးဇူးတင်တယ်နော်။",
+    "context": "To a partner or close family.",
+    "instruction": "Soft, sweet thanks by a female speaker.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "positive"
+  },
+  {
+    "id": 192,
+    "true_label": "neutral",
+    "utterance": "မကြိုက်ရင် တောင်းပန်ပါတယ်နော်။",
+    "context": "Friend's birthday gift wasn't suitable.",
+    "instruction": "Apology for a wrong gift.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "positive"
+  },
+  {
+    "id": 193,
+    "true_label": "neutral",
+    "utterance": "ဘာတစ်ခုမှ မသိဘူး။",
+    "context": "Total ignorance.",
+    "instruction": "State you don't know anything at all.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "formal"
+  },
+  {
+    "id": 194,
+    "true_label": "polite",
+    "utterance": "ဗိုက်ဆာလို့ပါခင်ဗျာ။",
+    "context": "Talking to an elder or a host.",
+    "instruction": "State hunger politely as a male speaker.",
+    "register": "standard",
+    "power": "inferior_to_superior",
+    "tone": "neutral"
+  },
+  {
+    "id": 195,
+    "true_label": "rude",
+    "utterance": "လာနေပြီ၊ မင်းအလှည့်ပဲ။",
+    "context": "Parent to naughty child.",
+    "instruction": "Say you're coming but with a warning.",
+    "register": "colloquial",
+    "power": "superior_to_inferior",
+    "tone": "formal"
+  },
+  {
+    "id": 196,
+    "true_label": "neutral",
+    "utterance": "ဟိုမှာ သွားစားလိုက်။",
+    "context": "Mealtime.",
+    "instruction": "Tell someone to go and 'eat' there.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 197,
+    "true_label": "neutral",
+    "utterance": "ဝန်ပိနေလို့ ကူညီပါဦး။",
+    "context": "Sincere help request.",
+    "instruction": "State the 'burden' is too much.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "emotional"
+  },
+  {
+    "id": 198,
+    "true_label": "informal",
+    "utterance": "လန်းလိုက်တာကွာ။",
+    "context": "Young people.",
+    "instruction": "Praise for being 'cool' and smart (modern).",
+    "register": "slang",
+    "power": "equal",
+    "tone": "emotional"
+  },
+  {
+    "id": 199,
+    "true_label": "neutral",
+    "utterance": "ကျေးဇူးဆပ်ပါရစေ။",
+    "context": "Serious favor received.",
+    "instruction": "State that I will repay you.",
+    "register": "colloquial",
+    "power": "inferior_to_superior",
+    "tone": "formal"
+  },
+  {
+    "id": 200,
+    "true_label": "polite",
+    "utterance": "ချိန်းထားတဲ့အတိုင်း လာနေပါပြီ။",
+    "context": "Business/Health.",
+    "instruction": "State you are coming for the appointment.",
+    "register": "standard",
+    "power": "equal",
+    "tone": "formal"
+  },
+  {
+    "id": 201,
+    "true_label": "informal",
+    "utterance": "မင်းကတော့ မြေခွေးပဲ။",
+    "context": "When they find a loophole.",
+    "instruction": "Tease a friend for being 'cunning'.",
+    "register": "slang",
+    "power": "equal",
+    "tone": "positive"
+  },
+  {
+    "id": 202,
+    "true_label": "neutral",
+    "utterance": "စောင့်ကြည့်ရမှာပဲ၊ အခုတော့ မသိဘူး။",
+    "context": "Unfolding events.",
+    "instruction": "State lack of knowledge with a 'Wait and see' tone.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 203,
+    "true_label": "neutral",
+    "utterance": "အဲဒီမှာ မရှိလို့ မသိဘူး။",
+    "context": "Witness questioning.",
+    "instruction": "Express you don't know because you weren't there.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 204,
+    "true_label": "informal",
+    "utterance": "ဒီမှာ လာကစားပါ။",
+    "context": "Peers/Children.",
+    "instruction": "Invite to come and 'play'.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "positive"
+  },
+  {
+    "id": 205,
+    "true_label": "rude",
+    "utterance": "ထွက်သွား။",
+    "context": "Angry superior.",
+    "instruction": "Command to get out.",
+    "register": "standard",
+    "power": "superior_to_inferior",
+    "tone": "negative"
+  },
+  {
+    "id": 206,
+    "true_label": "neutral",
+    "utterance": "မလုပ်နဲ့တော့။",
+    "context": "Someone is annoying you.",
+    "instruction": "Command to stop doing something specific.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "negative"
+  },
+  {
+    "id": 207,
+    "true_label": "neutral",
+    "utterance": "စိတ်ဓာတ်မသိဘူး။",
+    "context": "Asked 'is he a good guy?'.",
+    "instruction": "State you don't know the person's character.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 208,
+    "true_label": "polite",
+    "utterance": "ညံ့သွားလို့ တောင်းပန်ပါတယ်။",
+    "context": "Student to parent or coach.",
+    "instruction": "Apology for a poor performance.",
+    "register": "standard",
+    "power": "inferior_to_superior",
+    "tone": "formal"
+  },
+  {
+    "id": 209,
+    "true_label": "neutral",
+    "utterance": "လမင်းလေးလို လှပနေတယ်။",
+    "context": "Romantic.",
+    "instruction": "Comparing to the moon.",
+    "register": "standard",
+    "power": "equal",
+    "tone": "positive"
+  },
+  {
+    "id": 210,
+    "true_label": "neutral",
+    "utterance": "နတ်သမီးလေး ကျနေတာပဲ။",
+    "context": "Romantic or high praise.",
+    "instruction": "Metaphorical: Like a fairy.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 211,
+    "true_label": "professional",
+    "utterance": "ယခု ထွက်ခွာရန် အကြံပြုအပ်ပါသည်။",
+    "context": "Legal or extremely formal document/speech.",
+    "instruction": "High formal advisory.",
+    "register": "formal",
+    "power": "equal",
+    "tone": "formal"
+  },
+  {
+    "id": 212,
+    "true_label": "neutral",
+    "utterance": "သိချင်ပါတယ်၊ ဒါပေမဲ့ မသိဘူး။",
+    "context": "Sincere regret.",
+    "instruction": "State lack of knowledge with 'I wish I knew'.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "positive"
+  },
+  {
+    "id": 213,
+    "true_label": "blunt",
+    "utterance": "မြန်မြန် လာခဲ့။",
+    "context": "Urgency.",
+    "instruction": "Tell someone to come 'quickly'.",
+    "register": "colloquial",
+    "power": "any",
+    "tone": "neutral"
+  },
+  {
+    "id": 214,
+    "true_label": "neutral",
+    "utterance": "ခရီးဝေးလို့ ပင်ပန်းတယ်။",
+    "context": "Commute/Long walk.",
+    "instruction": "State that one is tired of the distance.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 215,
+    "true_label": "neutral",
+    "utterance": "အမျှော်အမြင် ရှိလိုက်တာ၊ တော်တယ်။",
+    "context": "After a prediction comes true.",
+    "instruction": "Praising 'foresight'.",
+    "register": "colloquial",
+    "power": "any",
+    "tone": "neutral"
+  },
+  {
+    "id": 216,
+    "true_label": "neutral",
+    "utterance": "တည်တည်ငြိမ်ငြိမ်နဲ့ ဉာဏ်ရှိတာပဲ။",
+    "context": "Crisis management.",
+    "instruction": "Praise for staying calm and smart.",
+    "register": "standard",
+    "power": "equal",
+    "tone": "formal"
+  },
+  {
+    "id": 217,
+    "true_label": "polite",
+    "utterance": "ဒီကို လာစေချင်ပါတယ်ဗျာ။",
+    "context": "Closing a request.",
+    "instruction": "Final sincere invitation to come.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 218,
+    "true_label": "informal",
+    "utterance": "သွားလိုက်တော့။",
+    "context": "Peers.",
+    "instruction": "Short slangy 'Go' among peers.",
+    "register": "slang",
+    "power": "equal",
+    "tone": "emotional"
+  },
+  {
+    "id": 219,
+    "true_label": "informal",
+    "utterance": "တွေ့မယ်ဟ။",
+    "context": "Informal peer.",
+    "instruction": "Catch you later.",
+    "register": "slang",
+    "power": "equal",
+    "tone": "emotional"
+  },
+  {
+    "id": 220,
+    "true_label": "neutral",
+    "utterance": "သား/သမီး ဘယ်မှာလဲ။",
+    "context": "Parent looking for child.",
+    "instruction": "Asking 'Where are you, my son/daughter?'.",
+    "register": "colloquial",
+    "power": "superior_to_inferior",
+    "tone": "positive"
+  },
+  {
+    "id": 221,
+    "true_label": "neutral",
+    "utterance": "အိပ်မက်လေးတွေ လှပါစေကွယ်။",
+    "context": "Bedtime story end.",
+    "instruction": "Sweet dreams (To a child, very soft).",
+    "register": "colloquial",
+    "power": "superior_to_inferior",
+    "tone": "positive"
+  },
+  {
+    "id": 222,
+    "true_label": "neutral",
+    "utterance": "ဖြစ်နိုင်ချေ မသိဘူး။",
+    "context": "Pondering options.",
+    "instruction": "State lack of knowledge with a 'Maybe' vibe.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "emotional"
+  },
+  {
+    "id": 223,
+    "true_label": "neutral",
+    "utterance": "ဆုံမယ့်နေရာမှာ တွေ့မယ်။",
+    "context": "Logistics.",
+    "instruction": "See you at the meeting point.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 224,
+    "true_label": "informal",
+    "utterance": "ကူညီပါဦးလို့။",
+    "context": "To a partner or close family.",
+    "instruction": "Softly mention the need for help (female).",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "positive"
+  },
+  {
+    "id": 225,
+    "true_label": "neutral",
+    "utterance": "ဘယ်ကို ခရီးသွားမှာလဲ။",
+    "context": "Travel plans.",
+    "instruction": "Asking 'Where are you going for a trip?'.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 226,
+    "true_label": "informal",
+    "utterance": "တော်လိုက်တာနော် ဟယ်။",
+    "context": "Among female friends.",
+    "instruction": "Female peer praise (gentle).",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "positive"
+  },
+  {
+    "id": 227,
+    "true_label": "informal",
+    "utterance": "သွားပြီ ဘရို။",
+    "context": "To male friends.",
+    "instruction": "I'm leaving (Male slang).",
+    "register": "slang",
+    "power": "equal",
+    "tone": "emotional"
+  },
+  {
+    "id": 228,
+    "true_label": "neutral",
+    "utterance": "ကလေးလေးကို လာကြည့်ပါဦး။",
+    "context": "Family visit.",
+    "instruction": "Call someone to come and see the 'baby'.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "positive"
+  },
+  {
+    "id": 229,
+    "true_label": "rude",
+    "utterance": "ကြွတော့။",
+    "context": "Annoyed with a friend.",
+    "instruction": "Sarcastic term for going.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "negative"
+  },
+  {
+    "id": 230,
+    "true_label": "blunt",
+    "utterance": "ပြောနေတယ်လေ၊ ဗိုက်ဆာတယ်လို့။",
+    "context": "To someone who is ignoring you.",
+    "instruction": "Direct and firm hunger.",
+    "register": "colloquial",
+    "power": "any",
+    "tone": "formal"
+  },
+  {
+    "id": 231,
+    "true_label": "neutral",
+    "utterance": "ဝေးလိုက်တာ။",
+    "context": "Travel.",
+    "instruction": "Shock at how far a place is.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "emotional"
+  },
+  {
+    "id": 232,
+    "true_label": "polite",
+    "utterance": "ဘိုးဘိုး ကောင်းကောင်းအိပ်ပါနော်။",
+    "context": "Grandchild to grandfather.",
+    "instruction": "Sleep well, Grandpa.",
+    "register": "colloquial",
+    "power": "inferior_to_superior",
+    "tone": "positive"
+  },
+  {
+    "id": 233,
+    "true_label": "polite",
+    "utterance": "တောင်းပန်ပါတယ်ဗျာ။",
+    "context": "To a teacher or elder.",
+    "instruction": "Very polite male apology.",
+    "register": "colloquial",
+    "power": "inferior_to_superior",
+    "tone": "formal"
+  },
+  {
+    "id": 234,
+    "true_label": "neutral",
+    "utterance": "အင်တာနက် (Internet) ပေါ်မှာတွေ့မယ်။",
+    "context": "Digital social.",
+    "instruction": "See you on the internet.",
+    "register": "slang",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 235,
+    "true_label": "neutral",
+    "utterance": "ကားမောင်းရတာ ပင်ပန်းတယ်။",
+    "context": "Road trip.",
+    "instruction": "Tired from driving.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 236,
+    "true_label": "neutral",
+    "utterance": "စောစောအိပ်၊ မနက်နောက်မကျစေနဲ့။",
+    "context": "Advice.",
+    "instruction": "Sleep early, don't wake up late.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 237,
+    "true_label": "polite",
+    "utterance": "ဖေဖေ ကောင်းသောညပါ။",
+    "context": "Child to father.",
+    "instruction": "Good night, Dad.",
+    "register": "standard",
+    "power": "inferior_to_superior",
+    "tone": "positive"
+  },
+  {
+    "id": 238,
+    "true_label": "polite",
+    "utterance": "ဘယ်မှာလဲရှင့်။",
+    "context": "Asking an elder or superior.",
+    "instruction": "Polite question as a female speaker.",
+    "register": "standard",
+    "power": "inferior_to_superior",
+    "tone": "neutral"
+  },
+  {
+    "id": 239,
+    "true_label": "neutral",
+    "utterance": "ရက်စွဲမသိဘူး။",
+    "context": "Asked for a deadline.",
+    "instruction": "Express lack of knowledge about a date.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 240,
+    "true_label": "neutral",
+    "utterance": "မပျင်းနဲ့တော့။",
+    "context": "Student/Employee.",
+    "instruction": "Stop being lazy.",
+    "register": "colloquial",
+    "power": "superior_to_inferior",
+    "tone": "formal"
+  },
+  {
+    "id": 241,
+    "true_label": "blunt",
+    "utterance": "မင်းအလှည့်အထိ ခဏစောင့်။",
+    "context": "Queue situation.",
+    "instruction": "Wait for your turn.",
+    "register": "colloquial",
+    "power": "any",
+    "tone": "formal"
+  },
+  {
+    "id": 242,
+    "true_label": "blunt",
+    "utterance": "အဲဒီမှာ ခဏစောင့်။",
+    "context": "Strict environment or superior to inferior.",
+    "instruction": "Command to wait where you are.",
+    "register": "colloquial",
+    "power": "superior_to_inferior",
+    "tone": "neutral"
+  },
+  {
+    "id": 243,
+    "true_label": "polite",
+    "utterance": "ကျန်းကျန်းမာမာ ရှိရဲ့လားရှင့်။",
+    "context": "Young female to older female.",
+    "instruction": "Inquire about health politely (female speaker).",
+    "register": "standard",
+    "power": "inferior_to_superior",
+    "tone": "formal"
+  },
+  {
+    "id": 244,
+    "true_label": "neutral",
+    "utterance": "ဖုန်းမှားသွားလို့ တောင်းပန်ပါတယ်။",
+    "context": "Calling a stranger by mistake.",
+    "instruction": "Brief apology for a wrong number.",
+    "register": "colloquial",
+    "power": "any",
+    "tone": "neutral"
+  },
+  {
+    "id": 245,
+    "true_label": "neutral",
+    "utterance": "လှလွန်းလို့ ချစ်တာ။",
+    "context": "Complimentary love.",
+    "instruction": "I love you, you are beautiful.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "positive"
+  },
+  {
+    "id": 246,
+    "true_label": "neutral",
+    "utterance": "မနက်ခင်း လေလေးက ကောင်းတယ်နော်။",
+    "context": "Out for a walk.",
+    "instruction": "Ask how the morning air feels.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 247,
+    "true_label": "informal",
+    "utterance": "ဒီကို ပြေးလာခဲ့။",
+    "context": "Playful.",
+    "instruction": "Tell a child to 'run' here.",
+    "register": "colloquial",
+    "power": "superior_to_inferior",
+    "tone": "positive"
+  },
+  {
+    "id": 248,
+    "true_label": "informal",
+    "utterance": "အိုမိုင်ဂေါ့။",
+    "context": "Social media or urban youth.",
+    "instruction": "Modern English transliteration.",
+    "register": "slang",
+    "power": "equal",
+    "tone": "emotional"
+  },
+  {
+    "id": 249,
+    "true_label": "neutral",
+    "utterance": "ကြင်နာတတ်လို့ ချစ်တာ။",
+    "context": "Appreciating virtue.",
+    "instruction": "I love you for your kindness.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "positive"
+  },
+  {
+    "id": 250,
+    "true_label": "neutral",
+    "utterance": "ပါရမီ ပါလိုက်တာ။",
+    "context": "Academic context.",
+    "instruction": "State that the person is exceptionally gifted.",
+    "register": "colloquial",
+    "power": "any",
+    "tone": "neutral"
+  },
+  {
+    "id": 251,
+    "true_label": "informal",
+    "utterance": "လာခဲ့ပါဦးနော်။",
+    "context": "Casual.",
+    "instruction": "Short soft invitation to a peer.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "positive"
+  },
+  {
+    "id": 252,
+    "true_label": "neutral",
+    "utterance": "ဒုက္ခရောက်နေလို့ ကူညီပါဦး။",
+    "context": "When facing a difficult problem.",
+    "instruction": "State you are in trouble.",
+    "register": "colloquial",
+    "power": "any",
+    "tone": "emotional"
+  },
+  {
+    "id": 253,
+    "true_label": "polite",
+    "utterance": "မေတ္တာဖြင့် အိပ်စက်နိုင်ပါစေ။",
+    "context": "Elder blessing younger.",
+    "instruction": "Sweet dreams (Formal/Religious).",
+    "register": "formal",
+    "power": "superior_to_inferior",
+    "tone": "positive"
+  },
+  {
+    "id": 254,
+    "true_label": "neutral",
+    "utterance": "အားလုံးထက် ပိုချစ်ရသူ။",
+    "context": "Deep confession.",
+    "instruction": "I love you, my everything.",
+    "register": "standard",
+    "power": "equal",
+    "tone": "formal"
+  },
+  {
+    "id": 255,
+    "true_label": "neutral",
+    "utterance": "နေဝင်တာ အရမ်းလှတယ်။",
+    "context": "Evening.",
+    "instruction": "Surprise at a beautiful sunset.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "positive"
+  },
+  {
+    "id": 256,
+    "true_label": "polite",
+    "utterance": "တောင်းပန်ဖို့ လာနေတာပါ။",
+    "context": "Conflict resolution.",
+    "instruction": "Say you are coming to apologize.",
+    "register": "standard",
+    "power": "equal",
+    "tone": "formal"
+  },
+  {
+    "id": 257,
+    "true_label": "informal",
+    "utterance": "မင်းက လှသားပဲနော်။",
+    "context": "To a close friend.",
+    "instruction": "Compliment with a friendly tag.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "positive"
+  },
+  {
+    "id": 258,
+    "true_label": "professional",
+    "utterance": "အမှားအယွင်းအတွက် အနူးအညွတ် တောင်းပန်ပါသည်။",
+    "context": "Official company statement.",
+    "instruction": "Corporate apology for an error.",
+    "register": "formal",
+    "power": "superior_to_inferior",
+    "tone": "formal"
+  },
+  {
+    "id": 259,
+    "true_label": "neutral",
+    "utterance": "အပြင်မှာလား၊ အထဲမှာလား။",
+    "context": "Meeting up.",
+    "instruction": "Asking 'Where are you waiting (inside or outside)?'.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 260,
+    "true_label": "rude",
+    "utterance": "အခုမထွက်ရင် ငါကိုယ်တိုင် ထုတ်ပစ်မယ်။",
+    "context": "Evicting someone.",
+    "instruction": "Threat of physical removal.",
+    "register": "colloquial",
+    "power": "superior_to_inferior",
+    "tone": "negative"
+  },
+  {
+    "id": 261,
+    "true_label": "informal",
+    "utterance": "နေကောင်းလားအေ့။",
+    "context": "Among female peers.",
+    "instruction": "Ask about health with female particle.",
+    "register": "slang",
+    "power": "equal",
+    "tone": "emotional"
+  },
+  {
+    "id": 262,
+    "true_label": "neutral",
+    "utterance": "ဒီလမ်းအတိုင်း လာနေတာ။",
+    "context": "Navigation.",
+    "instruction": "Confirm you are on the right road.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 263,
+    "true_label": "neutral",
+    "utterance": "ဘယ်မှာ စောင့်နေတာလဲ။",
+    "context": "Pick up.",
+    "instruction": "Asking 'Where are you waiting?'.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 264,
+    "true_label": "neutral",
+    "utterance": "ဘုရားသွားတော့မယ်။",
+    "context": "Religious.",
+    "instruction": "I'm leaving for the temple.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 265,
+    "true_label": "informal",
+    "utterance": "ရှယ်ပဲဟ။",
+    "context": "Seeing a new car.",
+    "instruction": "Exclamation of 'Wow, cool!'.",
+    "register": "slang",
+    "power": "equal",
+    "tone": "emotional"
+  },
+  {
+    "id": 266,
+    "true_label": "blunt",
+    "utterance": "လာနေပြီ၊ ဒါပဲ။",
+    "context": "Last call.",
+    "instruction": "Final confirmation of being on the way.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "formal"
+  },
+  {
+    "id": 267,
+    "true_label": "polite",
+    "utterance": "မင်္ဂလာနံနက်ခင်းပါခင်ဗျာ။",
+    "context": "To a boss or elder.",
+    "instruction": "Standard formal greeting for a male speaker.",
+    "register": "formal",
+    "power": "inferior_to_superior",
+    "tone": "neutral"
+  },
+  {
+    "id": 268,
+    "true_label": "informal",
+    "utterance": "လာပြီ၊ စောင့်ဦး။",
+    "context": "Phone.",
+    "instruction": "Short wait request while coming.",
+    "register": "slang",
+    "power": "equal",
+    "tone": "emotional"
+  },
+  {
+    "id": 269,
+    "true_label": "neutral",
+    "utterance": "ဖုန်းမကိုင်မိလို့ တောင်းပန်ပါတယ်။",
+    "context": "Calling back after missing a ring.",
+    "instruction": "Apology for missing a call.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 270,
+    "true_label": "informal",
+    "utterance": "ကျေးဇူး၊ ကျေးဇူးနော်။",
+    "context": "Very grateful.",
+    "instruction": "Repeat thanks for emphasis.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "positive"
+  },
+  {
+    "id": 271,
+    "true_label": "neutral",
+    "utterance": "ပိုက်ဆံရှင်းဦးမယ်၊ ခဏစောင့်။",
+    "context": "Shopping/Dining.",
+    "instruction": "Wait while I pay the bill.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 272,
+    "true_label": "informal",
+    "utterance": "မောင်လေး ကောင်းကောင်းအိပ်စက်ပါနော်။",
+    "context": "Female to male partner.",
+    "instruction": "Sleep well, my darling boy.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "positive"
+  },
+  {
+    "id": 273,
+    "true_label": "polite",
+    "utterance": "ရှေ့ကို လာခဲ့ပါ။",
+    "context": "Queue or crowd.",
+    "instruction": "Request to come 'forward'.",
+    "register": "standard",
+    "power": "any",
+    "tone": "neutral"
+  },
+  {
+    "id": 274,
+    "true_label": "polite",
+    "utterance": "ချစ်ပါတယ်ခင်ဗျာ။",
+    "context": "Confessing to someone respected or in a formal setting.",
+    "instruction": "Polite declaration as a male speaker.",
+    "register": "standard",
+    "power": "equal",
+    "tone": "positive"
+  },
+  {
+    "id": 275,
+    "true_label": "neutral",
+    "utterance": "လက်ဖက်ရည် ရပြီလား၊ မင်္ဂလာပါ။",
+    "context": "To a tea-shop owner.",
+    "instruction": "Ask if the tea is 'ready'.",
+    "register": "colloquial",
+    "power": "inferior_to_superior",
+    "tone": "positive"
+  },
+  {
+    "id": 276,
+    "true_label": "neutral",
+    "utterance": "ခဏနေမှပါ။",
+    "context": "Postponing an action.",
+    "instruction": "Wait request with a sense of 'later'.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 277,
+    "true_label": "polite",
+    "utterance": "ကျေးဇူးတင်ပါတယ်ရှင့်။",
+    "context": "Addressing an elder or superior.",
+    "instruction": "Express gratitude politely as a female speaker.",
+    "register": "standard",
+    "power": "inferior_to_superior",
+    "tone": "neutral"
+  },
+  {
+    "id": 278,
+    "true_label": "polite",
+    "utterance": "အစာအဟာရ တောင့်တနေမိပါတယ်။",
+    "context": "Addressing a host.",
+    "instruction": "Polite, almost poetic hunger.",
+    "register": "formal",
+    "power": "inferior_to_superior",
+    "tone": "formal"
+  },
+  {
+    "id": 279,
+    "true_label": "professional",
+    "utterance": "ကျန်းမာရေး အခြေအနေ ကောင်းမွန်ပါသလားခင်ဗျာ။",
+    "context": "Official meeting.",
+    "instruction": "Formal health check-in (male).",
+    "register": "formal",
+    "power": "equal",
+    "tone": "formal"
+  },
+  {
+    "id": 280,
+    "true_label": "polite",
+    "utterance": "ပင်ပန်းနေလို့ပါ ဆရာမ။",
+    "context": "Workplace.",
+    "instruction": "Polite female statement to a boss.",
+    "register": "standard",
+    "power": "inferior_to_superior",
+    "tone": "formal"
+  },
+  {
+    "id": 281,
+    "true_label": "neutral",
+    "utterance": "မင်းရဲ့ လိမ်ညာမှုတွေက ပင်ပန်းစေတယ်။",
+    "context": "Betrayal.",
+    "instruction": "I'm tired of your lies.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "formal"
+  },
+  {
+    "id": 282,
+    "true_label": "polite",
+    "utterance": "ခဏလောက် စောင့်ပေးပါဦးခင်ဗျာ။",
+    "context": "To a customer.",
+    "instruction": "Polite male wait request.",
+    "register": "standard",
+    "power": "inferior_to_superior",
+    "tone": "neutral"
+  },
+  {
+    "id": 283,
+    "true_label": "informal",
+    "utterance": "ဗိုက်ဟောင်းလောင်း ဖြစ်နေပြီ။",
+    "context": "Younger generation.",
+    "instruction": "Informal/Slang for being hungry.",
+    "register": "slang",
+    "power": "equal",
+    "tone": "emotional"
+  },
+  {
+    "id": 284,
+    "true_label": "neutral",
+    "utterance": "ဒီည ဘယ်မှာ တည်းမှာလဲ။",
+    "context": "Lodging.",
+    "instruction": "Asking 'Where are you staying tonight?'.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 285,
+    "true_label": "polite",
+    "utterance": "နှောင့်နှေးမှုအတွက် တောင်းပန်ပါတယ်။",
+    "context": "Project management.",
+    "instruction": "Apology for the delay in work.",
+    "register": "standard",
+    "power": "equal",
+    "tone": "formal"
+  },
+  {
+    "id": 286,
+    "true_label": "professional",
+    "utterance": "အကူအညီ လိုအပ်နေပါကြောင်း။",
+    "context": "Workplace.",
+    "instruction": "State that help is required for a project.",
+    "register": "formal",
+    "power": "equal",
+    "tone": "formal"
+  },
+  {
+    "id": 287,
+    "true_label": "informal",
+    "utterance": "ချစ် ဘယ်မှာလဲ။",
+    "context": "Couple.",
+    "instruction": "Asking 'Where are you, honey?'.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "positive"
+  },
+  {
+    "id": 288,
+    "true_label": "neutral",
+    "utterance": "သီချင်းပြီးတဲ့အထိ ခဏစောင့်ပါ။",
+    "context": "Concert/Performance.",
+    "instruction": "Wait for the music to end.",
+    "register": "standard",
+    "power": "any",
+    "tone": "neutral"
+  },
+  {
+    "id": 289,
+    "true_label": "neutral",
+    "utterance": "ကားပေါ်မှာ လာနေပြီ။",
+    "context": "Transportation.",
+    "instruction": "State you are coming on a bus.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 290,
+    "true_label": "neutral",
+    "utterance": "ဒီကို လာကြည့်ပါဦး။",
+    "context": "Showing something interesting.",
+    "instruction": "Invite someone to come and 'look'.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 291,
+    "true_label": "polite",
+    "utterance": "ဘယ်ဘက်ကို သွားပါ။",
+    "context": "Directions.",
+    "instruction": "Tell someone to go to the 'left'.",
+    "register": "colloquial",
+    "power": "any",
+    "tone": "neutral"
+  },
+  {
+    "id": 292,
+    "true_label": "polite",
+    "utterance": "ကျွန်တော့်အမှားပါ၊ တောင်းပန်ပါတယ်။",
+    "context": "Confessing a mistake.",
+    "instruction": "Admit that one is at fault.",
+    "register": "standard",
+    "power": "equal",
+    "tone": "positive"
+  },
+  {
+    "id": 293,
+    "true_label": "neutral",
+    "utterance": "နေဝင်မှ တွေ့မယ်။",
+    "context": "Evening.",
+    "instruction": "See you when the sun sets.",
+    "register": "standard",
+    "power": "equal",
+    "tone": "positive"
+  },
+  {
+    "id": 294,
+    "true_label": "neutral",
+    "utterance": "ဟိုမှာ သွားဝယ်လိုက်ပါ။",
+    "context": "Errand.",
+    "instruction": "Tell someone to go 'buy' something there.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 295,
+    "true_label": "neutral",
+    "utterance": "ဟာ။",
+    "context": "Sudden news or mistake.",
+    "instruction": "Masculine surprise or realization.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 296,
+    "true_label": "neutral",
+    "utterance": "မြို့ထဲကို လာနေပြီ။",
+    "context": "Travel.",
+    "instruction": "State you are coming into the city.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 297,
+    "true_label": "informal",
+    "utterance": "ခဏလေး၊ အခု ပြန်လာမယ်။",
+    "context": "Chatting.",
+    "instruction": "Informal wait request on social media.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "emotional"
+  },
+  {
+    "id": 298,
+    "true_label": "neutral",
+    "utterance": "ကျောင်းက ဘယ်မှာလဲ။",
+    "context": "General info.",
+    "instruction": "Asking 'Where is your school located?'.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 299,
+    "true_label": "polite",
+    "utterance": "ပြုံးပြုံးရွှင်ရွှင်နဲ့ နံနက်ခင်းလေးပါ။",
+    "context": "General.",
+    "instruction": "Greet with a smile.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "positive"
+  },
+  {
+    "id": 300,
+    "true_label": "neutral",
+    "utterance": "ပြန်တော့မယ်။",
+    "context": "Leaving work or a party.",
+    "instruction": "Stating one is going home.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 301,
+    "true_label": "informal",
+    "utterance": "ကျေးဇူး၊ ကျေးဇူးပဲနော်။",
+    "context": "Close female friends.",
+    "instruction": "Repetitive thanks among girls.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "positive"
+  },
+  {
+    "id": 302,
+    "true_label": "informal",
+    "utterance": "ဗိုက်ဆာနေပြီလေ။",
+    "context": "Telling a friend you are hungry.",
+    "instruction": "Express hunger with a friendly tone.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "emotional"
+  },
+  {
+    "id": 303,
+    "true_label": "neutral",
+    "utterance": "မှတ်ဉာဏ် အရမ်းကောင်းတာပဲ။",
+    "context": "After they recite something long.",
+    "instruction": "Admire someone's memory.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 304,
+    "true_label": "neutral",
+    "utterance": "ဗန်းလေး ဝိုင်းသယ်ပေးပါဦး။",
+    "context": "Party/Home.",
+    "instruction": "Help request while carrying food.",
+    "register": "colloquial",
+    "power": "any",
+    "tone": "neutral"
+  },
+  {
+    "id": 305,
+    "true_label": "neutral",
+    "utterance": "အရမ်း ကူညီရာရောက်ပါတယ်။ ကျေးဇူးပါ။",
+    "context": "Sincere help.",
+    "instruction": "State that the help was great.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "positive"
+  },
+  {
+    "id": 306,
+    "true_label": "professional",
+    "utterance": "ခေတ္တ စောင့်ဆိုင်းပေးပါရန် မေတ္တာရပ်ခံပါသည်။",
+    "context": "Official queue or counter.",
+    "instruction": "Formal request to wait for a while.",
+    "register": "formal",
+    "power": "equal",
+    "tone": "formal"
+  },
+  {
+    "id": 307,
+    "true_label": "neutral",
+    "utterance": "ပရင်တာရပ်လိုက်။",
+    "context": "Work.",
+    "instruction": "Stop the printer.",
+    "register": "slang",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 308,
+    "true_label": "informal",
+    "utterance": "အိပ်မက်လှလှ။",
+    "context": "Chat.",
+    "instruction": "Sweet dreams (Short/Messenger).",
+    "register": "slang",
+    "power": "equal",
+    "tone": "emotional"
+  },
+  {
+    "id": 309,
+    "true_label": "neutral",
+    "utterance": "ပြိုင်ဆိုင်မှုတွေနဲ့ ပင်ပန်းနေပြီ။",
+    "context": "Business/School.",
+    "instruction": "Exhausted by competition.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "formal"
+  },
+  {
+    "id": 310,
+    "true_label": "polite",
+    "utterance": "စိတ်ရှည်ပေးတာ ကျေးဇူးတင်ပါတယ်။",
+    "context": "Troubled student to teacher.",
+    "instruction": "Thanks for being patient with me.",
+    "register": "standard",
+    "power": "inferior_to_superior",
+    "tone": "formal"
+  },
+  {
+    "id": 311,
+    "true_label": "neutral",
+    "utterance": "ပင်ပန်းသွားစေရင် တောင်းပန်ပါတယ်။",
+    "context": "Workplace error.",
+    "instruction": "Apologize for causing extra work.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "emotional"
+  },
+  {
+    "id": 312,
+    "true_label": "polite",
+    "utterance": "ဗိုက်ဆာပြီ၊ ကားခေတ္တရပ်ပေးပါ။",
+    "context": "During a trip.",
+    "instruction": "State hunger as an obligation to stop.",
+    "register": "standard",
+    "power": "inferior_to_superior",
+    "tone": "neutral"
+  },
+  {
+    "id": 313,
+    "true_label": "polite",
+    "utterance": "ပူးပေါင်းဆောင်ရွက်မှုအတွက် ကျေးဇူးတင်ပါတယ်။",
+    "context": "Teamwork.",
+    "instruction": "Express thanks for the cooperation.",
+    "register": "standard",
+    "power": "equal",
+    "tone": "formal"
+  },
+  {
+    "id": 314,
+    "true_label": "neutral",
+    "utterance": "ဟိုထိပ်ကို သွားလိုက်ပါ။",
+    "context": "Street directions.",
+    "instruction": "Direction to go to the 'corner'.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 315,
+    "true_label": "informal",
+    "utterance": "ဉာဏ်တွေ များလှချည်လား။",
+    "context": "Playful or slightly suspicious.",
+    "instruction": "Express that they are too smart to trick.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "negative"
+  },
+  {
+    "id": 316,
+    "true_label": "neutral",
+    "utterance": "ကယ်ကြပါဦး!",
+    "context": "Immediate danger.",
+    "instruction": "Urgent cry for help in an emergency.",
+    "register": "colloquial",
+    "power": "any",
+    "tone": "emotional"
+  },
+  {
+    "id": 317,
+    "true_label": "informal",
+    "utterance": "ဒီနေ့တော့ ဒါပဲ၊ ပြန်တော့။",
+    "context": "Casual workplace or project.",
+    "instruction": "Ending the interaction for the day.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "negative"
+  },
+  {
+    "id": 318,
+    "true_label": "neutral",
+    "utterance": "ရှာဖို့ ကူညီပေးပါဦး။",
+    "context": "Searching for a key/phone.",
+    "instruction": "Ask for help in finding an item.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 319,
+    "true_label": "neutral",
+    "utterance": "လမ်းထိပ် ရောက်နေပြီ။",
+    "context": "Close to arrival.",
+    "instruction": "Indirect mention of location.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 320,
+    "true_label": "neutral",
+    "utterance": "လက်ကလေးတွေက အရမ်းလှတယ်။",
+    "context": "Manicure/Close-up.",
+    "instruction": "Complimenting someone's hands.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 321,
+    "true_label": "neutral",
+    "utterance": "ဘယ်သူ့ထက်မဆို ပိုချစ်တယ်။",
+    "context": "Confessing a preference.",
+    "instruction": "Love you more than anyone.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 322,
+    "true_label": "polite",
+    "utterance": "ဒီကို လာခဲ့ပါဦးခင်ဗျာ။",
+    "context": "Addressing a junior or peer politely.",
+    "instruction": "Polite request for a male speaker.",
+    "register": "standard",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 323,
+    "true_label": "neutral",
+    "utterance": "ထာဝရ ချစ်သွားမယ်။",
+    "context": "Long-term commitment or marriage.",
+    "instruction": "I love you forever.",
+    "register": "standard",
+    "power": "equal",
+    "tone": "formal"
+  },
+  {
+    "id": 324,
+    "true_label": "polite",
+    "utterance": "တောင်းပန်ပါတယ်ခင်ဗျာ။",
+    "context": "Addressing an elder or superior.",
+    "instruction": "Polite apology as a male speaker.",
+    "register": "standard",
+    "power": "inferior_to_superior",
+    "tone": "neutral"
+  },
+  {
+    "id": 325,
+    "true_label": "neutral",
+    "utterance": "ပြန်လာမှ တွေ့မယ်။",
+    "context": "Going on a short errand.",
+    "instruction": "See you when I return.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  },
+  {
+    "id": 326,
+    "true_label": "neutral",
+    "utterance": "ဉာဏ်လေးက ဖြူစင်ပြီး တော်လိုက်တာ။",
+    "context": "Young child or student.",
+    "instruction": "Praise for being 'bright' (lit. white brain).",
+    "register": "colloquial",
+    "power": "superior_to_inferior",
+    "tone": "positive"
+  },
+  {
+    "id": 327,
+    "true_label": "neutral",
+    "utterance": "ဘယ်လိုလဲ၊ အားလုံး ဟုတ်ရဲ့လား။",
+    "context": "Mentorship context.",
+    "instruction": "Casual check in about progress.",
+    "register": "colloquial",
+    "power": "superior_to_inferior",
+    "tone": "neutral"
+  },
+  {
+    "id": 328,
+    "true_label": "rude",
+    "utterance": "မင်းကို ချက်ချင်း ပျောက်သွားစေချင်တယ်။",
+    "context": "Intense anger.",
+    "instruction": "I want you to disappear.",
+    "register": "colloquial",
+    "power": "any",
+    "tone": "negative"
+  },
+  {
+    "id": 329,
+    "true_label": "neutral",
+    "utterance": "ပြင်ဆင်ဦးမယ်၊ ခဏစောင့်။",
+    "context": "Getting ready to go out.",
+    "instruction": "Wait while I prepare.",
+    "register": "colloquial",
+    "power": "equal",
+    "tone": "neutral"
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "model": "Gemini 3 Fast",
+  "accuracy": 0.5,
+  "macro_f1": 0.4929,
+  "weighted_f1": 0.5021,
+  "n_examples": 330,
+  "n_missing": 0
+}

@@ -1,0 +1,1322 @@
+[
+  {
+    "id": 0,
+    "label": "neutral"
+  },
+  {
+    "id": 1,
+    "label": "informal"
+  },
+  {
+    "id": 2,
+    "label": "neutral"
+  },
+  {
+    "id": 3,
+    "label": "neutral"
+  },
+  {
+    "id": 4,
+    "label": "informal"
+  },
+  {
+    "id": 5,
+    "label": "polite"
+  },
+  {
+    "id": 6,
+    "label": "polite"
+  },
+  {
+    "id": 7,
+    "label": "blunt"
+  },
+  {
+    "id": 8,
+    "label": "polite"
+  },
+  {
+    "id": 9,
+    "label": "informal"
+  },
+  {
+    "id": 10,
+    "label": "blunt"
+  },
+  {
+    "id": 11,
+    "label": "informal"
+  },
+  {
+    "id": 12,
+    "label": "informal"
+  },
+  {
+    "id": 13,
+    "label": "polite"
+  },
+  {
+    "id": 14,
+    "label": "neutral"
+  },
+  {
+    "id": 15,
+    "label": "polite"
+  },
+  {
+    "id": 16,
+    "label": "polite"
+  },
+  {
+    "id": 17,
+    "label": "neutral"
+  },
+  {
+    "id": 18,
+    "label": "informal"
+  },
+  {
+    "id": 19,
+    "label": "blunt"
+  },
+  {
+    "id": 20,
+    "label": "polite"
+  },
+  {
+    "id": 21,
+    "label": "informal"
+  },
+  {
+    "id": 22,
+    "label": "polite"
+  },
+  {
+    "id": 23,
+    "label": "polite"
+  },
+  {
+    "id": 24,
+    "label": "informal"
+  },
+  {
+    "id": 25,
+    "label": "professional"
+  },
+  {
+    "id": 26,
+    "label": "professional"
+  },
+  {
+    "id": 27,
+    "label": "informal"
+  },
+  {
+    "id": 28,
+    "label": "blunt"
+  },
+  {
+    "id": 29,
+    "label": "blunt"
+  },
+  {
+    "id": 30,
+    "label": "informal"
+  },
+  {
+    "id": 31,
+    "label": "informal"
+  },
+  {
+    "id": 32,
+    "label": "professional"
+  },
+  {
+    "id": 33,
+    "label": "blunt"
+  },
+  {
+    "id": 34,
+    "label": "informal"
+  },
+  {
+    "id": 35,
+    "label": "blunt"
+  },
+  {
+    "id": 36,
+    "label": "informal"
+  },
+  {
+    "id": 37,
+    "label": "polite"
+  },
+  {
+    "id": 38,
+    "label": "professional"
+  },
+  {
+    "id": 39,
+    "label": "informal"
+  },
+  {
+    "id": 40,
+    "label": "informal"
+  },
+  {
+    "id": 41,
+    "label": "informal"
+  },
+  {
+    "id": 42,
+    "label": "neutral"
+  },
+  {
+    "id": 43,
+    "label": "rude"
+  },
+  {
+    "id": 44,
+    "label": "neutral"
+  },
+  {
+    "id": 45,
+    "label": "polite"
+  },
+  {
+    "id": 46,
+    "label": "informal"
+  },
+  {
+    "id": 47,
+    "label": "informal"
+  },
+  {
+    "id": 48,
+    "label": "neutral"
+  },
+  {
+    "id": 49,
+    "label": "informal"
+  },
+  {
+    "id": 50,
+    "label": "blunt"
+  },
+  {
+    "id": 51,
+    "label": "neutral"
+  },
+  {
+    "id": 52,
+    "label": "neutral"
+  },
+  {
+    "id": 53,
+    "label": "informal"
+  },
+  {
+    "id": 54,
+    "label": "blunt"
+  },
+  {
+    "id": 55,
+    "label": "informal"
+  },
+  {
+    "id": 56,
+    "label": "rude"
+  },
+  {
+    "id": 57,
+    "label": "polite"
+  },
+  {
+    "id": 58,
+    "label": "polite"
+  },
+  {
+    "id": 59,
+    "label": "rude"
+  },
+  {
+    "id": 60,
+    "label": "professional"
+  },
+  {
+    "id": 61,
+    "label": "informal"
+  },
+  {
+    "id": 62,
+    "label": "neutral"
+  },
+  {
+    "id": 63,
+    "label": "professional"
+  },
+  {
+    "id": 64,
+    "label": "blunt"
+  },
+  {
+    "id": 65,
+    "label": "polite"
+  },
+  {
+    "id": 66,
+    "label": "polite"
+  },
+  {
+    "id": 67,
+    "label": "professional"
+  },
+  {
+    "id": 68,
+    "label": "informal"
+  },
+  {
+    "id": 69,
+    "label": "informal"
+  },
+  {
+    "id": 70,
+    "label": "informal"
+  },
+  {
+    "id": 71,
+    "label": "informal"
+  },
+  {
+    "id": 72,
+    "label": "neutral"
+  },
+  {
+    "id": 73,
+    "label": "polite"
+  },
+  {
+    "id": 74,
+    "label": "informal"
+  },
+  {
+    "id": 75,
+    "label": "polite"
+  },
+  {
+    "id": 76,
+    "label": "informal"
+  },
+  {
+    "id": 77,
+    "label": "neutral"
+  },
+  {
+    "id": 78,
+    "label": "polite"
+  },
+  {
+    "id": 79,
+    "label": "polite"
+  },
+  {
+    "id": 80,
+    "label": "polite"
+  },
+  {
+    "id": 81,
+    "label": "informal"
+  },
+  {
+    "id": 82,
+    "label": "informal"
+  },
+  {
+    "id": 83,
+    "label": "informal"
+  },
+  {
+    "id": 84,
+    "label": "informal"
+  },
+  {
+    "id": 85,
+    "label": "informal"
+  },
+  {
+    "id": 86,
+    "label": "neutral"
+  },
+  {
+    "id": 87,
+    "label": "polite"
+  },
+  {
+    "id": 88,
+    "label": "professional"
+  },
+  {
+    "id": 89,
+    "label": "neutral"
+  },
+  {
+    "id": 90,
+    "label": "informal"
+  },
+  {
+    "id": 91,
+    "label": "blunt"
+  },
+  {
+    "id": 92,
+    "label": "polite"
+  },
+  {
+    "id": 93,
+    "label": "neutral"
+  },
+  {
+    "id": 94,
+    "label": "neutral"
+  },
+  {
+    "id": 95,
+    "label": "informal"
+  },
+  {
+    "id": 96,
+    "label": "polite"
+  },
+  {
+    "id": 97,
+    "label": "polite"
+  },
+  {
+    "id": 98,
+    "label": "polite"
+  },
+  {
+    "id": 99,
+    "label": "informal"
+  },
+  {
+    "id": 100,
+    "label": "informal"
+  },
+  {
+    "id": 101,
+    "label": "informal"
+  },
+  {
+    "id": 102,
+    "label": "professional"
+  },
+  {
+    "id": 103,
+    "label": "professional"
+  },
+  {
+    "id": 104,
+    "label": "informal"
+  },
+  {
+    "id": 105,
+    "label": "informal"
+  },
+  {
+    "id": 106,
+    "label": "informal"
+  },
+  {
+    "id": 107,
+    "label": "informal"
+  },
+  {
+    "id": 108,
+    "label": "informal"
+  },
+  {
+    "id": 109,
+    "label": "blunt"
+  },
+  {
+    "id": 110,
+    "label": "informal"
+  },
+  {
+    "id": 111,
+    "label": "informal"
+  },
+  {
+    "id": 112,
+    "label": "informal"
+  },
+  {
+    "id": 113,
+    "label": "polite"
+  },
+  {
+    "id": 114,
+    "label": "neutral"
+  },
+  {
+    "id": 115,
+    "label": "informal"
+  },
+  {
+    "id": 116,
+    "label": "polite"
+  },
+  {
+    "id": 117,
+    "label": "blunt"
+  },
+  {
+    "id": 118,
+    "label": "professional"
+  },
+  {
+    "id": 119,
+    "label": "professional"
+  },
+  {
+    "id": 120,
+    "label": "informal"
+  },
+  {
+    "id": 121,
+    "label": "neutral"
+  },
+  {
+    "id": 122,
+    "label": "informal"
+  },
+  {
+    "id": 123,
+    "label": "neutral"
+  },
+  {
+    "id": 124,
+    "label": "informal"
+  },
+  {
+    "id": 125,
+    "label": "informal"
+  },
+  {
+    "id": 126,
+    "label": "polite"
+  },
+  {
+    "id": 127,
+    "label": "informal"
+  },
+  {
+    "id": 128,
+    "label": "polite"
+  },
+  {
+    "id": 129,
+    "label": "neutral"
+  },
+  {
+    "id": 130,
+    "label": "neutral"
+  },
+  {
+    "id": 131,
+    "label": "blunt"
+  },
+  {
+    "id": 132,
+    "label": "blunt"
+  },
+  {
+    "id": 133,
+    "label": "professional"
+  },
+  {
+    "id": 134,
+    "label": "polite"
+  },
+  {
+    "id": 135,
+    "label": "blunt"
+  },
+  {
+    "id": 136,
+    "label": "polite"
+  },
+  {
+    "id": 137,
+    "label": "blunt"
+  },
+  {
+    "id": 138,
+    "label": "informal"
+  },
+  {
+    "id": 139,
+    "label": "polite"
+  },
+  {
+    "id": 140,
+    "label": "neutral"
+  },
+  {
+    "id": 141,
+    "label": "neutral"
+  },
+  {
+    "id": 142,
+    "label": "informal"
+  },
+  {
+    "id": 143,
+    "label": "polite"
+  },
+  {
+    "id": 144,
+    "label": "neutral"
+  },
+  {
+    "id": 145,
+    "label": "professional"
+  },
+  {
+    "id": 146,
+    "label": "blunt"
+  },
+  {
+    "id": 147,
+    "label": "polite"
+  },
+  {
+    "id": 148,
+    "label": "informal"
+  },
+  {
+    "id": 149,
+    "label": "rude"
+  },
+  {
+    "id": 150,
+    "label": "blunt"
+  },
+  {
+    "id": 151,
+    "label": "informal"
+  },
+  {
+    "id": 152,
+    "label": "blunt"
+  },
+  {
+    "id": 153,
+    "label": "polite"
+  },
+  {
+    "id": 154,
+    "label": "polite"
+  },
+  {
+    "id": 155,
+    "label": "informal"
+  },
+  {
+    "id": 156,
+    "label": "blunt"
+  },
+  {
+    "id": 157,
+    "label": "blunt"
+  },
+  {
+    "id": 158,
+    "label": "informal"
+  },
+  {
+    "id": 159,
+    "label": "informal"
+  },
+  {
+    "id": 160,
+    "label": "neutral"
+  },
+  {
+    "id": 161,
+    "label": "rude"
+  },
+  {
+    "id": 162,
+    "label": "informal"
+  },
+  {
+    "id": 163,
+    "label": "polite"
+  },
+  {
+    "id": 164,
+    "label": "informal"
+  },
+  {
+    "id": 165,
+    "label": "neutral"
+  },
+  {
+    "id": 166,
+    "label": "informal"
+  },
+  {
+    "id": 167,
+    "label": "informal"
+  },
+  {
+    "id": 168,
+    "label": "polite"
+  },
+  {
+    "id": 169,
+    "label": "neutral"
+  },
+  {
+    "id": 170,
+    "label": "professional"
+  },
+  {
+    "id": 171,
+    "label": "polite"
+  },
+  {
+    "id": 172,
+    "label": "informal"
+  },
+  {
+    "id": 173,
+    "label": "neutral"
+  },
+  {
+    "id": 174,
+    "label": "informal"
+  },
+  {
+    "id": 175,
+    "label": "informal"
+  },
+  {
+    "id": 176,
+    "label": "neutral"
+  },
+  {
+    "id": 177,
+    "label": "informal"
+  },
+  {
+    "id": 178,
+    "label": "neutral"
+  },
+  {
+    "id": 179,
+    "label": "informal"
+  },
+  {
+    "id": 180,
+    "label": "informal"
+  },
+  {
+    "id": 181,
+    "label": "informal"
+  },
+  {
+    "id": 182,
+    "label": "polite"
+  },
+  {
+    "id": 183,
+    "label": "blunt"
+  },
+  {
+    "id": 184,
+    "label": "blunt"
+  },
+  {
+    "id": 185,
+    "label": "informal"
+  },
+  {
+    "id": 186,
+    "label": "informal"
+  },
+  {
+    "id": 187,
+    "label": "neutral"
+  },
+  {
+    "id": 188,
+    "label": "informal"
+  },
+  {
+    "id": 189,
+    "label": "informal"
+  },
+  {
+    "id": 190,
+    "label": "polite"
+  },
+  {
+    "id": 191,
+    "label": "informal"
+  },
+  {
+    "id": 192,
+    "label": "polite"
+  },
+  {
+    "id": 193,
+    "label": "neutral"
+  },
+  {
+    "id": 194,
+    "label": "polite"
+  },
+  {
+    "id": 195,
+    "label": "rude"
+  },
+  {
+    "id": 196,
+    "label": "blunt"
+  },
+  {
+    "id": 197,
+    "label": "informal"
+  },
+  {
+    "id": 198,
+    "label": "informal"
+  },
+  {
+    "id": 199,
+    "label": "polite"
+  },
+  {
+    "id": 200,
+    "label": "professional"
+  },
+  {
+    "id": 201,
+    "label": "informal"
+  },
+  {
+    "id": 202,
+    "label": "neutral"
+  },
+  {
+    "id": 203,
+    "label": "neutral"
+  },
+  {
+    "id": 204,
+    "label": "informal"
+  },
+  {
+    "id": 205,
+    "label": "rude"
+  },
+  {
+    "id": 206,
+    "label": "blunt"
+  },
+  {
+    "id": 207,
+    "label": "neutral"
+  },
+  {
+    "id": 208,
+    "label": "polite"
+  },
+  {
+    "id": 209,
+    "label": "polite"
+  },
+  {
+    "id": 210,
+    "label": "informal"
+  },
+  {
+    "id": 211,
+    "label": "professional"
+  },
+  {
+    "id": 212,
+    "label": "neutral"
+  },
+  {
+    "id": 213,
+    "label": "blunt"
+  },
+  {
+    "id": 214,
+    "label": "neutral"
+  },
+  {
+    "id": 215,
+    "label": "informal"
+  },
+  {
+    "id": 216,
+    "label": "polite"
+  },
+  {
+    "id": 217,
+    "label": "polite"
+  },
+  {
+    "id": 218,
+    "label": "informal"
+  },
+  {
+    "id": 219,
+    "label": "informal"
+  },
+  {
+    "id": 220,
+    "label": "informal"
+  },
+  {
+    "id": 221,
+    "label": "informal"
+  },
+  {
+    "id": 222,
+    "label": "neutral"
+  },
+  {
+    "id": 223,
+    "label": "neutral"
+  },
+  {
+    "id": 224,
+    "label": "informal"
+  },
+  {
+    "id": 225,
+    "label": "informal"
+  },
+  {
+    "id": 226,
+    "label": "informal"
+  },
+  {
+    "id": 227,
+    "label": "informal"
+  },
+  {
+    "id": 228,
+    "label": "informal"
+  },
+  {
+    "id": 229,
+    "label": "rude"
+  },
+  {
+    "id": 230,
+    "label": "blunt"
+  },
+  {
+    "id": 231,
+    "label": "informal"
+  },
+  {
+    "id": 232,
+    "label": "informal"
+  },
+  {
+    "id": 233,
+    "label": "polite"
+  },
+  {
+    "id": 234,
+    "label": "informal"
+  },
+  {
+    "id": 235,
+    "label": "neutral"
+  },
+  {
+    "id": 236,
+    "label": "blunt"
+  },
+  {
+    "id": 237,
+    "label": "polite"
+  },
+  {
+    "id": 238,
+    "label": "polite"
+  },
+  {
+    "id": 239,
+    "label": "neutral"
+  },
+  {
+    "id": 240,
+    "label": "blunt"
+  },
+  {
+    "id": 241,
+    "label": "blunt"
+  },
+  {
+    "id": 242,
+    "label": "blunt"
+  },
+  {
+    "id": 243,
+    "label": "polite"
+  },
+  {
+    "id": 244,
+    "label": "polite"
+  },
+  {
+    "id": 245,
+    "label": "informal"
+  },
+  {
+    "id": 246,
+    "label": "informal"
+  },
+  {
+    "id": 247,
+    "label": "informal"
+  },
+  {
+    "id": 248,
+    "label": "informal"
+  },
+  {
+    "id": 249,
+    "label": "informal"
+  },
+  {
+    "id": 250,
+    "label": "informal"
+  },
+  {
+    "id": 251,
+    "label": "informal"
+  },
+  {
+    "id": 252,
+    "label": "informal"
+  },
+  {
+    "id": 253,
+    "label": "polite"
+  },
+  {
+    "id": 254,
+    "label": "polite"
+  },
+  {
+    "id": 255,
+    "label": "informal"
+  },
+  {
+    "id": 256,
+    "label": "polite"
+  },
+  {
+    "id": 257,
+    "label": "informal"
+  },
+  {
+    "id": 258,
+    "label": "professional"
+  },
+  {
+    "id": 259,
+    "label": "informal"
+  },
+  {
+    "id": 260,
+    "label": "rude"
+  },
+  {
+    "id": 261,
+    "label": "informal"
+  },
+  {
+    "id": 262,
+    "label": "neutral"
+  },
+  {
+    "id": 263,
+    "label": "informal"
+  },
+  {
+    "id": 264,
+    "label": "neutral"
+  },
+  {
+    "id": 265,
+    "label": "informal"
+  },
+  {
+    "id": 266,
+    "label": "informal"
+  },
+  {
+    "id": 267,
+    "label": "polite"
+  },
+  {
+    "id": 268,
+    "label": "informal"
+  },
+  {
+    "id": 269,
+    "label": "polite"
+  },
+  {
+    "id": 270,
+    "label": "informal"
+  },
+  {
+    "id": 271,
+    "label": "blunt"
+  },
+  {
+    "id": 272,
+    "label": "informal"
+  },
+  {
+    "id": 273,
+    "label": "polite"
+  },
+  {
+    "id": 274,
+    "label": "polite"
+  },
+  {
+    "id": 275,
+    "label": "informal"
+  },
+  {
+    "id": 276,
+    "label": "informal"
+  },
+  {
+    "id": 277,
+    "label": "polite"
+  },
+  {
+    "id": 278,
+    "label": "professional"
+  },
+  {
+    "id": 279,
+    "label": "professional"
+  },
+  {
+    "id": 280,
+    "label": "polite"
+  },
+  {
+    "id": 281,
+    "label": "rude"
+  },
+  {
+    "id": 282,
+    "label": "polite"
+  },
+  {
+    "id": 283,
+    "label": "informal"
+  },
+  {
+    "id": 284,
+    "label": "informal"
+  },
+  {
+    "id": 285,
+    "label": "polite"
+  },
+  {
+    "id": 286,
+    "label": "professional"
+  },
+  {
+    "id": 287,
+    "label": "informal"
+  },
+  {
+    "id": 288,
+    "label": "polite"
+  },
+  {
+    "id": 289,
+    "label": "neutral"
+  },
+  {
+    "id": 290,
+    "label": "informal"
+  },
+  {
+    "id": 291,
+    "label": "polite"
+  },
+  {
+    "id": 292,
+    "label": "polite"
+  },
+  {
+    "id": 293,
+    "label": "polite"
+  },
+  {
+    "id": 294,
+    "label": "blunt"
+  },
+  {
+    "id": 295,
+    "label": "informal"
+  },
+  {
+    "id": 296,
+    "label": "neutral"
+  },
+  {
+    "id": 297,
+    "label": "informal"
+  },
+  {
+    "id": 298,
+    "label": "informal"
+  },
+  {
+    "id": 299,
+    "label": "informal"
+  },
+  {
+    "id": 300,
+    "label": "neutral"
+  },
+  {
+    "id": 301,
+    "label": "informal"
+  },
+  {
+    "id": 302,
+    "label": "informal"
+  },
+  {
+    "id": 303,
+    "label": "informal"
+  },
+  {
+    "id": 304,
+    "label": "polite"
+  },
+  {
+    "id": 305,
+    "label": "polite"
+  },
+  {
+    "id": 306,
+    "label": "professional"
+  },
+  {
+    "id": 307,
+    "label": "blunt"
+  },
+  {
+    "id": 308,
+    "label": "informal"
+  },
+  {
+    "id": 309,
+    "label": "neutral"
+  },
+  {
+    "id": 310,
+    "label": "polite"
+  },
+  {
+    "id": 311,
+    "label": "polite"
+  },
+  {
+    "id": 312,
+    "label": "polite"
+  },
+  {
+    "id": 313,
+    "label": "professional"
+  },
+  {
+    "id": 314,
+    "label": "polite"
+  },
+  {
+    "id": 315,
+    "label": "informal"
+  },
+  {
+    "id": 316,
+    "label": "informal"
+  },
+  {
+    "id": 317,
+    "label": "blunt"
+  },
+  {
+    "id": 318,
+    "label": "polite"
+  },
+  {
+    "id": 319,
+    "label": "neutral"
+  },
+  {
+    "id": 320,
+    "label": "informal"
+  },
+  {
+    "id": 321,
+    "label": "informal"
+  },
+  {
+    "id": 322,
+    "label": "polite"
+  },
+  {
+    "id": 323,
+    "label": "polite"
+  },
+  {
+    "id": 324,
+    "label": "polite"
+  },
+  {
+    "id": 325,
+    "label": "neutral"
+  },
+  {
+    "id": 326,
+    "label": "informal"
+  },
+  {
+    "id": 327,
+    "label": "informal"
+  },
+  {
+    "id": 328,
+    "label": "rude"
+  },
+  {
+    "id": 329,
+    "label": "blunt"
+  }
+]

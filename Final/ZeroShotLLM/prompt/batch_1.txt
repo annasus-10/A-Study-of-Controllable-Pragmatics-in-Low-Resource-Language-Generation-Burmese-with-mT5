@@ -1,0 +1,898 @@
+You are a Burmese language expert specializing in pragmatics and politeness.
+
+For each utterance below, classify the politeness level.
+Choose EXACTLY ONE label from: blunt, informal, neutral, polite, professional, rude
+
+Definitions:
+- neutral: neither polite nor impolite, factual or indifferent
+- polite: respectful, considerate, formal courtesy
+- informal: casual, friendly, relaxed register
+- professional: formal workplace or official language
+- blunt: direct, no softening, but not rude
+- rude: impolite, offensive, disrespectful
+
+Respond ONLY with a JSON array like:
+[{"id": 0, "label": "neutral"}, {"id": 1, "label": "polite"}, ...]
+No explanation. No markdown. Just the raw JSON array.
+
+ID 0:
+Context: Chronic illness.
+Instruction: Tired of being sick.
+Register: colloquial
+Power: equal
+Tone: emotional
+Utterance: နေမကောင်းဖြစ်ရတာ ပင်ပန်းတယ်။
+
+ID 1:
+Context: Meeting at a specific landmark.
+Instruction: Asking 'Where are you standing?'.
+Register: colloquial
+Power: equal
+Tone: neutral
+Utterance: ဘယ်နားမှာ ရပ်နေတာလဲ။
+
+ID 2:
+Context: Expecting to meet in a short time.
+Instruction: See you soon.
+Register: standard
+Power: equal
+Tone: neutral
+Utterance: မကြာခင် တွေ့ကြမယ်။
+
+ID 3:
+Context: Transportation.
+Instruction: Mention you are coming by taxi.
+Register: colloquial
+Power: equal
+Tone: neutral
+Utterance: တက္ကစီနဲ့ လာနေတာ။
+
+ID 4:
+Context: Close friends.
+Instruction: Friendly nudge to go.
+Register: colloquial
+Power: equal
+Tone: emotional
+Utterance: အခု သွားလိုက်တော့နော်။
+
+ID 5:
+Context: Unexpected gift.
+Instruction: Shock at an act of kindness.
+Register: colloquial
+Power: equal
+Tone: positive
+Utterance: အို... အားနာလိုက်တာ။
+
+ID 6:
+Context: High romantic vow.
+Instruction: Love you with every breath.
+Register: standard
+Power: equal
+Tone: formal
+Utterance: ထွက်လေဝင်လေတိုင်းမှာ ချစ်တယ်။
+
+ID 7:
+Context: Time critical.
+Instruction: Tell someone to go as fast as they can.
+Register: colloquial
+Power: equal
+Tone: emotional
+Utterance: အမြန်ဆုံး သွား။
+
+ID 8:
+Context: Addressing an elder.
+Instruction: Apology for a lack of respect.
+Register: standard
+Power: inferior_to_superior
+Tone: formal
+Utterance: ရိုသေမှု ကင်းသွားရင် တောင်းပန်ပါတယ်။
+
+ID 9:
+Context: Casual friends.
+Instruction: Friendly casual push to go.
+Register: colloquial
+Power: equal
+Tone: positive
+Utterance: ကဲ... ပြန်တော့လေ။
+
+ID 10:
+Context: Noisy room.
+Instruction: Stop singing.
+Register: colloquial
+Power: equal
+Tone: neutral
+Utterance: သီချင်းမဆိုနဲ့တော့။
+
+ID 11:
+Context: Youth culture.
+Instruction: Modern slang 'Bye bye'.
+Register: slang
+Power: equal
+Tone: positive
+Utterance: တာတာ (Tata)။
+
+ID 12:
+Context: To a partner or sibling.
+Instruction: Softly mention hunger to a close person.
+Register: colloquial
+Power: equal
+Tone: positive
+Utterance: ဗိုက်ဆာတယ်ဟင်။
+
+ID 13:
+Context: At a restaurant after waiting.
+Instruction: Express hunger to a waiter.
+Register: standard
+Power: inferior_to_superior
+Tone: formal
+Utterance: ဗိုက်ဆာနေပြီမို့ မြန်မြန်လေး ပို့ပေးပါ။
+
+ID 14:
+Context: Event.
+Instruction: See you at the concert.
+Register: standard
+Power: equal
+Tone: neutral
+Utterance: ဂီတပွဲမှာတွေ့မယ်။
+
+ID 15:
+Context: Waiting for updates.
+Instruction: Wait for the news.
+Register: standard
+Power: equal
+Tone: neutral
+Utterance: သတင်းကြားတဲ့အထိ ခဏစောင့်ပါ။
+
+ID 16:
+Context: Romantic.
+Instruction: Comparing to a star.
+Register: standard
+Power: equal
+Tone: positive
+Utterance: ကြယ်လေးတစ်ပွင့်လို လှပနေတယ်။
+
+ID 17:
+Context: Urban stress.
+Instruction: Tired of city noise.
+Register: colloquial
+Power: equal
+Tone: neutral
+Utterance: ဆူညံသံတွေနဲ့ ပင်ပန်းလှပြီ။
+
+ID 18:
+Context: Non-verbal emphasized speech.
+Instruction: Answer 'I don't know' while shaking the head.
+Register: colloquial
+Power: equal
+Tone: neutral
+Utterance: ဟင့်အင်း၊ မသိဘူး။
+
+ID 19:
+Context: Logistics.
+Instruction: Stop the bicycle.
+Register: colloquial
+Power: equal
+Tone: neutral
+Utterance: စက်ဘီးရပ်လိုက်။
+
+ID 20:
+Context: Academic or professional setting.
+Instruction: Humbly admit not knowing much.
+Register: standard
+Power: inferior_to_superior
+Tone: formal
+Utterance: ကျွန်တော် သိပ်မသိပါဘူး။
+
+ID 21:
+Context: General social interaction.
+Instruction: Simple standard compliment.
+Register: colloquial
+Power: equal
+Tone: neutral
+Utterance: မင်း တကယ် လှတယ်။
+
+ID 22:
+Context: Sibling interaction.
+Instruction: Sleep well, older sister.
+Register: standard
+Power: inferior_to_superior
+Tone: positive
+Utterance: အစ်မ ကောင်းကောင်းအိပ်ပါ။
+
+ID 23:
+Context: Addressing a lady respectfully.
+Instruction: Polite compliment as a male speaker.
+Register: standard
+Power: equal
+Tone: neutral
+Utterance: အရမ်း လှပါတယ်ခင်ဗျာ။
+
+ID 24:
+Context: Watching a performer.
+Instruction: Surprise at someone's talent.
+Register: colloquial
+Power: equal
+Tone: positive
+Utterance: တကယ့်ကို တော်တာပဲ။
+
+ID 25:
+Context: Addressing an audience.
+Instruction: Formal 'Pardon' or 'Help'.
+Register: formal
+Power: inferior_to_superior
+Tone: formal
+Utterance: အကူအညီ ပေးသနားကြပါ။
+
+ID 26:
+Context: Office or security.
+Instruction: Formal 'Proceed to the designated area'.
+Register: formal
+Power: any
+Tone: formal
+Utterance: သတ်မှတ်ထားသော နေရာသို့ သွားရောက်ပေးပါ။
+
+ID 27:
+Context: Family/Close relationship.
+Instruction: Friendly 'See you later' to an older sister.
+Register: colloquial
+Power: inferior_to_superior
+Tone: positive
+Utterance: အစ်မ... နောက်မှတွေ့မယ်နော်။
+
+ID 28:
+Context: Friends.
+Instruction: Stop teasing/joking.
+Register: colloquial
+Power: equal
+Tone: emotional
+Utterance: မစနဲ့တော့။
+
+ID 29:
+Context: General.
+Instruction: Stop the investigation/search.
+Register: colloquial
+Power: equal
+Tone: neutral
+Utterance: မရှာနဲ့တော့။
+
+ID 30:
+Context: After a long night.
+Instruction: Check if they are 'still alive' (joke morning).
+Register: slang
+Power: equal
+Tone: positive
+Utterance: နိုးလာသေးသားပဲ၊ မင်္ဂလာပါ။
+
+ID 31:
+Context: Youth culture.
+Instruction: State that energy is at 0% (Slang).
+Register: slang
+Power: equal
+Tone: emotional
+Utterance: အား (Battery) ကုန်နေပြီ။
+
+ID 32:
+Context: Official event or diplomatic setting.
+Instruction: High formal announcement of arrival.
+Register: formal
+Power: equal
+Tone: formal
+Utterance: ယခု ရောက်ရှိလာနေပြီ ဖြစ်ပါသည်။
+
+ID 33:
+Context: Conflict resolution.
+Instruction: Staying is useless.
+Register: colloquial
+Power: equal
+Tone: negative
+Utterance: ထပ်နေလည်း ဘာမှ ထူးမှာ မဟုတ်ဘူး။
+
+ID 34:
+Context: To an expert.
+Instruction: Calling someone a 'master'.
+Register: slang
+Power: inferior_to_superior
+Tone: formal
+Utterance: မင်းကတော့ ဆရာ့ဆရာပဲ။
+
+ID 35:
+Context: Barber mistake.
+Instruction: Shock at a bad hairstyle.
+Register: colloquial
+Power: equal
+Tone: emotional
+Utterance: ဘာတွေလုပ်လိုက်တာလဲ။
+
+ID 36:
+Context: Helpful but ignorant.
+Instruction: State lack of knowledge and suggest asking someone else.
+Register: colloquial
+Power: equal
+Tone: neutral
+Utterance: မသိဘူး၊ သူ့ကို မေးကြည့်။
+
+ID 37:
+Context: Travel photography.
+Instruction: Brief thanks for the photo.
+Register: colloquial
+Power: equal
+Tone: emotional
+Utterance: ရိုက်ပေးတာ ကျေးဇူးနော်။
+
+ID 38:
+Context: Job recommendation.
+Instruction: Formal 'Excellent' characterization.
+Register: formal
+Power: superior_to_inferior
+Tone: formal
+Utterance: ထူးကဲသော ဉာဏ်ပညာရှိသူ ဖြစ်ပါသည်။
+
+ID 39:
+Context: Siblings or very close friends.
+Instruction: Forceful request among brothers.
+Register: colloquial
+Power: superior_to_inferior
+Tone: neutral
+Utterance: ကူစမ်းပါဦး ငါ့ညီရဲ့။
+
+ID 40:
+Context: Touching something hot.
+Instruction: Sudden sharp surprise.
+Register: colloquial
+Power: equal
+Tone: emotional
+Utterance: အမေ့... ပူလိုက်တာ။
+
+ID 41:
+Context: Reassurance.
+Instruction: I'm leaving, don't worry.
+Register: colloquial
+Power: equal
+Tone: positive
+Utterance: သွားပြီ၊ စိတ်မပူနဲ့နော်။
+
+ID 42:
+Context: Burnout.
+Instruction: State that mind and body are both tired.
+Register: colloquial
+Power: equal
+Tone: formal
+Utterance: ရုပ်ရော စိတ်ရော ပင်ပန်းတယ်။
+
+ID 43:
+Context: In a fight.
+Instruction: Tell someone to wait, you're coming (angry).
+Register: colloquial
+Power: any
+Tone: negative
+Utterance: လာနေပြီ၊ စောင့်နေလိုက်။
+
+ID 44:
+Context: Looking for office.
+Instruction: Asking 'Where are you in the building?'.
+Register: standard
+Power: equal
+Tone: neutral
+Utterance: အဆောက်အဦးရဲ့ ဘယ်မှာလဲ။
+
+ID 45:
+Context: When someone asks if you are okay.
+Instruction: Say thanks for the concern.
+Register: colloquial
+Power: equal
+Tone: positive
+Utterance: စိတ်ပူပေးတာ ကျေးဇူးပါ။
+
+ID 46:
+Context: Restaurant.
+Instruction: Shock at an expensive bill.
+Register: colloquial
+Power: equal
+Tone: emotional
+Utterance: အမလေး... ကုန်ပါပြီ။
+
+ID 47:
+Context: To a female peer.
+Instruction: Asking 'Where are you going, Sister?'.
+Register: colloquial
+Power: equal
+Tone: emotional
+Utterance: အစ်မ ဘယ်သွားမလို့လဲ။
+
+ID 48:
+Context: Casual conversation with a peer.
+Instruction: State hunger in a simple, direct way.
+Register: colloquial
+Power: equal
+Tone: neutral
+Utterance: ဗိုက်ဆာတယ်။
+
+ID 49:
+Context: Social event.
+Instruction: Asking about the 'feeling' in the air.
+Register: colloquial
+Power: equal
+Tone: emotional
+Utterance: အခြေအနေ ဘယ်လိုလဲ၊ ပျော်ကြလား။
+
+ID 50:
+Context: Practice.
+Instruction: Stop dancing.
+Register: colloquial
+Power: equal
+Tone: neutral
+Utterance: မကနဲ့တော့။
+
+ID 51:
+Context: Forgot something.
+Instruction: Mention you are coming to fetch your bag.
+Register: colloquial
+Power: equal
+Tone: neutral
+Utterance: အိတ်လာယူနေတာ။
+
+ID 52:
+Context: Health.
+Instruction: I'm leaving to see the doctor.
+Register: colloquial
+Power: equal
+Tone: neutral
+Utterance: ဆရာဝန်သွားပြဦးမယ်။
+
+ID 53:
+Context: Male to female.
+Instruction: I love you, my queen.
+Register: colloquial
+Power: equal
+Tone: positive
+Utterance: ကိုယ့်မိဖုရားလေးကို ချစ်တယ်။
+
+ID 54:
+Context: Mealtime.
+Instruction: Stop eating (diet/full).
+Register: colloquial
+Power: equal
+Tone: neutral
+Utterance: မစားနဲ့တော့။
+
+ID 55:
+Context: Home.
+Instruction: Greeting to a sibling.
+Register: slang
+Power: equal
+Tone: emotional
+Utterance: နိုးပြီလား ဝက်ကလေး။
+
+ID 56:
+Context: Argument.
+Instruction: Tell someone to come here to be kicked out.
+Register: colloquial
+Power: superior_to_inferior
+Tone: negative
+Utterance: လာခဲ့၊ ထွက်သွားဖို့ပြင်။
+
+ID 57:
+Context: Outdoor navigation.
+Instruction: Tell someone to go to 'that tree'.
+Register: colloquial
+Power: any
+Tone: neutral
+Utterance: ဟိုသစ်ပင်ဆီ သွားလိုက်ပါ။
+
+ID 58:
+Context: Birthday.
+Instruction: Thanks for the birthday wish.
+Register: colloquial
+Power: equal
+Tone: positive
+Utterance: မွေးနေ့ဆုတောင်းအတွက် ကျေးဇူးပါ။
+
+ID 59:
+Context: Rude dismissal.
+Instruction: Point out the exit sarcastically.
+Register: colloquial
+Power: equal
+Tone: negative
+Utterance: အပေါက်က ဟိုမှာပါ။
+
+ID 60:
+Context: Addressing a monk or high official.
+Instruction: Highly formal request to proceed to a place.
+Register: formal
+Power: inferior_to_superior
+Tone: formal
+Utterance: ဟိုနေရာသို့ ကြွရောက်ပေးပါရန်။
+
+ID 61:
+Context: Greeting a professional.
+Instruction: Asking if they are 'busy' as a greeting.
+Register: colloquial
+Power: equal
+Tone: neutral
+Utterance: အလုပ်များနေလား။
+
+ID 62:
+Context: Travel.
+Instruction: I'm leaving to go home (to my village).
+Register: colloquial
+Power: equal
+Tone: neutral
+Utterance: ရွာပြန်တော့မယ်။
+
+ID 63:
+Context: Strict environment.
+Instruction: State that one should have left by now.
+Register: standard
+Power: equal
+Tone: formal
+Utterance: ဒီအချိန်မှာ ပြန်သင့်နေပါပြီ။
+
+ID 64:
+Context: Rush.
+Instruction: Tell someone to go 'quickly'.
+Register: colloquial
+Power: any
+Tone: neutral
+Utterance: မြန်မြန် သွား။
+
+ID 65:
+Context: Vows or deep commitment.
+Instruction: State that you will love them till the end.
+Register: colloquial
+Power: equal
+Tone: formal
+Utterance: အဆုံးထိ ချစ်သွားမယ်။
+
+ID 66:
+Context: Supportive.
+Instruction: Wishing a quiet night.
+Register: standard
+Power: equal
+Tone: positive
+Utterance: ငြိမ်ငြိမ်သက်သက် အိပ်ပျော်ပါစေ။
+
+ID 67:
+Context: End of a talk.
+Instruction: Formal thanks to an audience.
+Register: formal
+Power: superior_to_inferior
+Tone: formal
+Utterance: နားထောင်ပေးမှုအတွက် ကျေးဇူးတင်ပါသည်။
+
+ID 68:
+Context: Very tired.
+Instruction: I'm yawning, night.
+Register: colloquial
+Power: equal
+Tone: emotional
+Utterance: သမ်းနေပြီ၊ အိပ်တော့မယ်။
+
+ID 69:
+Context: Hearing unbelievable gossip.
+Instruction: Expressing 'Really?'.
+Register: colloquial
+Power: equal
+Tone: emotional
+Utterance: တကယ်ကြီးလား။
+
+ID 70:
+Context: Urgent call.
+Instruction: Tell a peer you're coming right now (emphatic).
+Register: colloquial
+Power: equal
+Tone: neutral
+Utterance: လာနေပြီလို့။
+
+ID 71:
+Context: To someone who was tired.
+Instruction: Direct inquiry about feeling better.
+Register: colloquial
+Power: equal
+Tone: neutral
+Utterance: နေလို့ ကောင်းလာပြီလား။
+
+ID 72:
+Context: Travel.
+Instruction: I'm leaving for the station.
+Register: colloquial
+Power: equal
+Tone: neutral
+Utterance: ဘူတာရုံသွားတော့မယ်။
+
+ID 73:
+Context: Breaking a friend's tool/item.
+Instruction: Apology for a broken item.
+Register: colloquial
+Power: equal
+Tone: neutral
+Utterance: ပျက်စီးသွားလို့ တောင်းပန်ပါတယ်။
+
+ID 74:
+Context: Sports/Games.
+Instruction: Asking 'Where are you playing?'.
+Register: colloquial
+Power: equal
+Tone: neutral
+Utterance: ဘယ်ကွင်းမှာ ကစားနေတာလဲ။
+
+ID 75:
+Context: After a presentation.
+Instruction: Formal thanks for the attention.
+Register: standard
+Power: equal
+Tone: formal
+Utterance: အလေးထားပေးတာ ကျေးဇူးတင်ပါတယ်။
+
+ID 76:
+Context: General.
+Instruction: I'm leaving, see you later.
+Register: colloquial
+Power: equal
+Tone: neutral
+Utterance: သွားပြီ၊ နောက်မှတွေ့မယ်။
+
+ID 77:
+Context: Waiting for someone.
+Instruction: See you when you are home.
+Register: colloquial
+Power: equal
+Tone: neutral
+Utterance: အိမ်ရောက်မှ တွေ့မယ်။
+
+ID 78:
+Context: Inspiring talk.
+Instruction: Praise someone for their 'bright' eyes/intellect.
+Register: standard
+Power: any
+Tone: neutral
+Utterance: ဉာဏ်အလင်း ရှိလိုက်တာ။
+
+ID 79:
+Context: Job interview.
+Instruction: Express you don't know due to lack of experience.
+Register: standard
+Power: inferior_to_superior
+Tone: formal
+Utterance: အတွေ့အကြုံ မရှိလို့ မသိပါဘူး။
+
+ID 80:
+Context: To a doctor or bystander.
+Instruction: Request help for a child.
+Register: standard
+Power: any
+Tone: emotional
+Utterance: ကလေးအတွက် ကူညီပေးပါဦး။
+
+ID 81:
+Context: To a close friend.
+Instruction: Go sleep now (Short slang).
+Register: slang
+Power: equal
+Tone: emotional
+Utterance: အိပ်တော့ဟ။
+
+ID 82:
+Context: To a child/partner.
+Instruction: Asking 'Where are you, my dear?'.
+Register: colloquial
+Power: equal
+Tone: positive
+Utterance: သည်းလေး ဘယ်မှာလဲ။
+
+ID 83:
+Context: Sibling interaction.
+Instruction: Complimenting a younger sister.
+Register: colloquial
+Power: superior_to_inferior
+Tone: positive
+Utterance: ညီမလေးက လှလာလိုက်တာ။
+
+ID 84:
+Context: Gym.
+Instruction: Surprise at how strong someone is.
+Register: colloquial
+Power: equal
+Tone: positive
+Utterance: သန်လိုက်တာ။
+
+ID 85:
+Context: Someone hasn't replied in hours.
+Instruction: Asking 'Where did you disappear to?'.
+Register: colloquial
+Power: equal
+Tone: emotional
+Utterance: ဘယ်ပျောက်နေတာလဲ။
+
+ID 86:
+Context: Asked 'how many?'.
+Instruction: State lack of knowledge about a quantity.
+Register: colloquial
+Power: equal
+Tone: neutral
+Utterance: အရေအတွက် မသိဘူး။
+
+ID 87:
+Context: Office/Clinic door.
+Instruction: Tell someone to wait outside.
+Register: colloquial
+Power: equal
+Tone: neutral
+Utterance: အပြင်မှာ ခဏစောင့်ပါ။
+
+ID 88:
+Context: Addressing a patron.
+Instruction: Sleep well (Male - very humble).
+Register: standard
+Power: inferior_to_superior
+Tone: formal
+Utterance: အိပ်စက်အနားယူပါတော့ခင်ဗျာ။
+
+ID 89:
+Context: Group interaction.
+Instruction: I'm leaving the group (Chat/Social).
+Register: colloquial
+Power: equal
+Tone: neutral
+Utterance: အဖွဲ့ထဲက ထွက်သွားပြီ။
+
+ID 90:
+Context: Appreciating simplicity.
+Instruction: Stating that beauty is natural.
+Register: colloquial
+Power: equal
+Tone: positive
+Utterance: သဘာဝအတိုင်းလေးနဲ့ လှတယ်။
+
+ID 91:
+Context: Someone is very late.
+Instruction: Impatience: 'Where are you getting to?'.
+Register: colloquial
+Power: equal
+Tone: negative
+Utterance: ဘယ်တွေ ရောက်နေတာလဲ။
+
+ID 92:
+Context: To a stranger.
+Instruction: Request 'a little bit' of help politely.
+Register: standard
+Power: equal
+Tone: neutral
+Utterance: ခဏလောက် ကူညီပေးလို့ ရမလားခင်ဗျာ။
+
+ID 93:
+Context: Tourist context.
+Instruction: State lack of knowledge about a place.
+Register: colloquial
+Power: equal
+Tone: neutral
+Utterance: နေရာမသိဘူး။
+
+ID 94:
+Context: Unscheduled meeting.
+Instruction: See you when you are free.
+Register: colloquial
+Power: equal
+Tone: neutral
+Utterance: အားမှ တွေ့မယ်။
+
+ID 95:
+Context: Very exhausted.
+Instruction: Repetitive 'tired' for emphasis.
+Register: colloquial
+Power: equal
+Tone: emotional
+Utterance: ပင်ပန်းတယ်၊ ပင်ပန်းတယ်ကွယ်။
+
+ID 96:
+Context: Extreme praise.
+Instruction: State that one is a 'Legendary beauty'.
+Register: colloquial
+Power: equal
+Tone: formal
+Utterance: ဒဏ္ဍာရီထဲကလို လှတယ်။
+
+ID 97:
+Context: Counter interaction.
+Instruction: Request help while shopping.
+Register: colloquial
+Power: any
+Tone: neutral
+Utterance: ရွေးဖို့ ကူညီပါဦး။
+
+ID 98:
+Context: Neighbor or roommate context.
+Instruction: Apology for being noisy.
+Register: colloquial
+Power: equal
+Tone: neutral
+Utterance: ဆူညံသွားရင် တောင်းပန်ပါတယ်နော်။
+
+ID 99:
+Context: Co-worker.
+Instruction: Stop working for today.
+Register: colloquial
+Power: equal
+Tone: positive
+Utterance: အလုပ်မလုပ်နဲ့တော့၊ နားတော့။
+
+ID 100:
+Context: Among peers.
+Instruction: State you are 'stuck' (slang).
+Register: slang
+Power: equal
+Tone: emotional
+Utterance: ငါ ဂိတ်ဆုံးနေပြီ၊ ကူဦး။
+
+ID 101:
+Context: Among young friends.
+Instruction: Urban slang for 'I'm coming'.
+Register: slang
+Power: equal
+Tone: emotional
+Utterance: လာပြီကွ။
+
+ID 102:
+Context: Addressing an elder, monk, or parent.
+Instruction: Religious or high-respect apology.
+Register: formal
+Power: inferior_to_superior
+Tone: formal
+Utterance: ကန်တော့ပါတယ်ဘုရား။
+
+ID 103:
+Context: Disaster relief.
+Instruction: Formal request for public aid.
+Register: formal
+Power: superior_to_inferior
+Tone: formal
+Utterance: ပြည်သူများ၏ အကူအညီ လိုအပ်ပါသည်။
+
+ID 104:
+Context: Messenger/Chat.
+Instruction: See you later (Transliterated Bye Bye).
+Register: slang
+Power: equal
+Tone: emotional
+Utterance: ဘိုင့်ဘိုင် (Bye bye)။
+
+ID 105:
+Context: Sibling interaction.
+Instruction: Complimenting an older sister.
+Register: colloquial
+Power: inferior_to_superior
+Tone: positive
+Utterance: အစ်မက အရမ်းလှတာပဲ။
+
+ID 106:
+Context: To a female friend.
+Instruction: I'm tired, Sister (Friendly).
+Register: colloquial
+Power: equal
+Tone: emotional
+Utterance: အစ်မ... ပင်ပန်းနေပြီ။
+
+ID 107:
+Context: Figuring out a secret.
+Instruction: Praise for 'detective-like' smarts.
+Register: colloquial
+Power: equal
+Tone: neutral
+Utterance: ခန့်မှန်းတာ မှန်လိုက်တာ၊ တော်တယ်။
+
+ID 108:
+Context: Digital.
+Instruction: Complimenting a profile picture.
+Register: slang
+Power: equal
+Tone: positive
+Utterance: ပရိုဖိုင်း (Profile) ပုံလေးက အရမ်းလှတယ်။
+
+ID 109:
+Context: Dismissal.
+Instruction: Tell someone to go 'back' home.
+Register: colloquial
+Power: superior_to_inferior
+Tone: neutral
+Utterance: အိမ်ကို ပြန်သွားတော့။
+
+Respond with JSON array for all 110 items above.
